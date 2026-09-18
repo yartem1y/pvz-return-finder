@@ -449,7 +449,7 @@
         const inferred = typeFor(row.code);
         const type = typeof row.type==='string' ? row.type : inferred;
         if (type==='unknown' || !['partner_pvz','magnit_store','yandex_pvz'].includes(type)) unknown++;
-        points.push({...row,code:row.code.trim(),address:row.address.trim(),is_active:row.is_active===true && type==='partner_pvz' && inferred==='partner_pvz' && !cities.has(norm(row.city))});
+        points.push({...row,code:row.code.trim(),address:row.address.trim(),is_active:row.is_active===true && !cities.has(norm(row.city))});
       }
       if (!points.length) throw new Error('В справочнике нет корректных точек.');
       const date = typeof data.updated_at === 'string' && /(Z|[+-]\d{2}:\d{2})$/.test(data.updated_at) ? new Date(data.updated_at) : new Date(NaN);
