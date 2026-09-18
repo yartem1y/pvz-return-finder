@@ -3,10 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
 <title>Пункты возврата</title>
 <link rel="icon" type="image/png" href="./favicon.png">
 <link rel="apple-touch-icon" href="./favicon.png">
-<style>body{margin:0;background:#f2f2f7}#pvz-ios{border:0!important;border-radius:0!important;min-height:100vh!important}button:disabled{opacity:.5;cursor:wait}button:focus-visible{outline:2px solid #007aff;outline-offset:3px}@media(max-width:620px){#pvz-ios .pvz-updated{display:block!important;white-space:normal;text-align:right;max-width:155px}#pvz-ios .pvz-section-head{flex-wrap:wrap}}</style>
+<script>
+  (() => {
+    let savedTheme = 'auto';
+    try { savedTheme = localStorage.getItem('pvz-theme') || 'auto'; } catch (_) {}
+    const mode = ['auto', 'light', 'dark'].includes(savedTheme) ? savedTheme : 'auto';
+    const theme = mode === 'auto'
+      ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+      : mode;
+    document.documentElement.dataset.themeMode = mode;
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+  })();
+</script>
+<style>body{margin:0;background:#f2f2f7}html[data-theme="dark"] body{background:#000}#pvz-ios{border:0!important;border-radius:0!important;min-height:100vh!important}html[data-theme="light"] #pvz-ios{color-scheme:light}html[data-theme="dark"] #pvz-ios{color-scheme:dark}button:disabled{opacity:.5;cursor:wait}button:focus-visible{outline:2px solid #007aff;outline-offset:3px}@media(max-width:620px){#pvz-ios .pvz-updated{display:block!important;white-space:normal;text-align:right;max-width:155px}#pvz-ios .pvz-section-head{flex-wrap:wrap}}</style>
 </head><body>
 <div id="pvz-ios" aria-label="Поиск ближайших пунктов возврата">
   <style>
@@ -62,6 +76,37 @@
     }
     #pvz-ios .pvz-brand-sub { margin-top: 2px; }
     #pvz-ios .pvz-updated { white-space: nowrap; }
+    #pvz-ios .pvz-bar-tools {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    #pvz-ios .pvz-theme-control {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      padding: 2px;
+      border-radius: 9px;
+      background: var(--pvz-control);
+      white-space: nowrap;
+    }
+    #pvz-ios .pvz-theme-option {
+      min-width: 52px;
+      height: 25px;
+      padding: 0 8px;
+      border: 0;
+      border-radius: 7px;
+      background: transparent;
+      color: var(--pvz-secondary);
+      font-size: 12px;
+      cursor: pointer;
+      transition: color .16s ease, background-color .16s ease, box-shadow .16s ease;
+    }
+    #pvz-ios .pvz-theme-option[aria-checked="true"] {
+      color: var(--pvz-text);
+      background: var(--pvz-surface);
+      box-shadow: 0 1px 3px rgba(0, 0, 0, .16);
+    }
 
     #pvz-ios .pvz-main {
       width: min(720px, calc(100% - 40px));
@@ -309,7 +354,12 @@
     @media (max-width: 620px) {
       #pvz-ios { min-height: 780px; border-radius: 10px; }
       #pvz-ios .pvz-bar { padding: 8px 16px; }
-      #pvz-ios .pvz-updated { display: none; }
+      #pvz-ios .pvz-bar-tools { gap: 10px; }
+      #pvz-ios .pvz-theme-option { min-width: 31px; padding: 0 5px; font-size: 0; }
+      #pvz-ios .pvz-theme-option::after { font-size: 12px; }
+      #pvz-ios .pvz-theme-option[data-theme-mode="auto"]::after { content: 'A'; }
+      #pvz-ios .pvz-theme-option[data-theme-mode="light"]::after { content: '☀'; }
+      #pvz-ios .pvz-theme-option[data-theme-mode="dark"]::after { content: '☾'; }
       #pvz-ios .pvz-main { width: calc(100% - 24px); margin-top: 25px; }
       #pvz-ios .pvz-title { font-size: 25px; }
       #pvz-ios .pvz-search-row { grid-template-columns: 1fr; }
@@ -334,7 +384,14 @@
       <div class="pvz-brand-main">Магнит Маркет</div>
       <div class="pvz-brand-sub">Возвраты</div>
     </div>
-    <div id="pvz-updated" class="pvz-updated">Данные загружаются</div>
+    <div class="pvz-bar-tools">
+      <div id="pvz-updated" class="pvz-updated">Данные загружаются</div>
+      <div class="pvz-theme-control" role="radiogroup" aria-label="Тема оформления">
+        <button class="pvz-theme-option" type="button" role="radio" aria-checked="false" data-theme-mode="auto">Авто</button>
+        <button class="pvz-theme-option" type="button" role="radio" aria-checked="false" data-theme-mode="light">Светлая</button>
+        <button class="pvz-theme-option" type="button" role="radio" aria-checked="false" data-theme-mode="dark">Темная</button>
+      </div>
+    </div>
   </header>
 
   <main class="pvz-main">
@@ -365,10 +422,28 @@
   const submit = document.getElementById('pvz-submit');
   const stamp = document.getElementById('pvz-updated');
   const toast = document.getElementById('pvz-toast');
+  const themeOptions = [...root.querySelectorAll('.pvz-theme-option')];
+  const systemTheme = matchMedia('(prefers-color-scheme: dark)');
   let points = [], cities = new Set(), ready = false, shown = [], timer;
   const norm = value => String(value ?? '').trim().toLocaleLowerCase('ru').replace(/ё/g, 'е').replace(/\s+/g, ' ');
   const esc = value => String(value).replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
   const typeFor = code => code.includes('^') ? 'yandex_pvz' : code.includes('%') ? 'magnit_store' : code.includes('-') ? 'partner_pvz' : 'unknown';
+  function applyThemeMode(mode, persist = true) {
+    const normalizedMode = ['auto', 'light', 'dark'].includes(mode) ? mode : 'auto';
+    const theme = normalizedMode === 'auto' ? (systemTheme.matches ? 'dark' : 'light') : normalizedMode;
+    document.documentElement.dataset.themeMode = normalizedMode;
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+    themeOptions.forEach(option => option.setAttribute('aria-checked', String(option.dataset.themeMode === normalizedMode)));
+    if (persist) {
+      try { localStorage.setItem('pvz-theme', normalizedMode); } catch (_) {}
+    }
+  }
+  applyThemeMode(document.documentElement.dataset.themeMode, false);
+  themeOptions.forEach(option => option.addEventListener('click', () => applyThemeMode(option.dataset.themeMode)));
+  systemTheme.addEventListener?.('change', () => {
+    if (document.documentElement.dataset.themeMode === 'auto') applyThemeMode('auto', false);
+  });
   function distance(a, b) {
     const rad = n => n * Math.PI / 180;
     const lat = rad(b.latitude-a.latitude), lon = rad(b.longitude-a.longitude);
