@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-21T11:17:50.157Z",
+  "updated_at": "2026-09-22T12:23:20.618Z",
   "cities_without_pvz": [
     "Город",
     "Аша",
@@ -26,7 +26,6 @@
     "Заволжск",
     "Засечное",
     "Иваново",
-    "Иннополис",
     "Истра",
     "Йошкар-Ола",
     "Кинешма",
@@ -66,7 +65,17 @@
     "Шуя",
     "Электроугли",
     "Энгельс",
-    "Юрьев-Польский"
+    "Юрьев-Польский",
+    "Богатые Сабы",
+    "Васильево",
+    "Лобня",
+    "Ногинск",
+    "Павловский Посад",
+    "Правдинский",
+    "Сергиев Посад",
+    "Столбище",
+    "Фрязино",
+    "Щёлково"
   ],
   "points": [
     {
@@ -2109,7 +2118,7 @@
       "latitude": 55.747792,
       "longitude": 48.742749,
       "city": "Иннополис",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58503,7 +58512,7 @@
       "latitude": 53.4088,
       "longitude": 58.961051,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60006,7 +60015,7 @@
       "latitude": 53.36959,
       "longitude": 58.977104,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60897,7 +60906,7 @@
       "latitude": 53.414205,
       "longitude": 58.97681,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -67719,7 +67728,7 @@
       "latitude": 53.39199,
       "longitude": 58.967158,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
