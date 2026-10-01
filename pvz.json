@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-22T12:23:20.618Z",
+  "updated_at": "2026-10-01T10:28:31.494Z",
   "cities_without_pvz": [
     "Город",
-    "Аша",
     "Балаково",
     "Балашов",
-    "Белорецк",
+    "Богатые Сабы",
     "Боголюбово",
     "Богослово",
     "Большие Дворы",
     "Бугуруслан",
     "Бузулук",
     "Буинск",
+    "Васильево",
     "Верея",
     "Верхние Осельки",
     "Верхний Услон",
@@ -38,44 +38,41 @@
     "Лакинск",
     "Ликино-Дулево",
     "Липецк",
+    "Лобня",
     "Малая Дубна",
-    "Мариинский",
     "Маркс",
     "Медведево",
     "Михнево",
     "Новое",
     "Новостройка",
     "Новые Лапсары",
+    "Ногинск",
     "Оренбург",
     "Осиново",
+    "Павловский Посад",
     "Павловское",
     "Палех",
+    "Правдинский",
     "Приволжский",
     "Рузаевка",
     "Ручей",
     "Савино",
     "Саратов",
+    "Сергиев Посад",
     "Сновицы",
     "Собинка",
+    "Столбище",
     "Суздаль",
     "Тамбов",
+    "Фрязино",
     "Черноголовка",
     "Чистополь",
     "Шиханы-2",
     "Шуя",
+    "Щёлково",
     "Электроугли",
     "Энгельс",
-    "Юрьев-Польский",
-    "Богатые Сабы",
-    "Васильево",
-    "Лобня",
-    "Ногинск",
-    "Павловский Посад",
-    "Правдинский",
-    "Сергиев Посад",
-    "Столбище",
-    "Фрязино",
-    "Щёлково"
+    "Юрьев-Польский"
   ],
   "points": [
     {
@@ -219,7 +216,7 @@
       "latitude": 55.180024,
       "longitude": 61.43555,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -282,7 +279,7 @@
       "latitude": 55.258614,
       "longitude": 61.376624,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -318,7 +315,7 @@
       "latitude": 54.938072,
       "longitude": 58.807701,
       "city": "Бакал",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -336,7 +333,7 @@
       "latitude": 54.94145,
       "longitude": 58.811499,
       "city": "Бакал",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -345,7 +342,7 @@
       "latitude": 53.874035,
       "longitude": 59.209223,
       "city": "Верхнеуральск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -354,7 +351,7 @@
       "latitude": 53.302128,
       "longitude": 59.12897,
       "city": "Агаповка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -372,7 +369,7 @@
       "latitude": 54.375565,
       "longitude": 59.994203,
       "city": "Уйское",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -381,7 +378,7 @@
       "latitude": 53.881334,
       "longitude": 59.224414,
       "city": "Верхнеуральск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -390,7 +387,7 @@
       "latitude": 53.294599,
       "longitude": 59.134971,
       "city": "Агаповка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -399,7 +396,7 @@
       "latitude": 54.569099,
       "longitude": 55.931917,
       "city": "Мокроусово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -408,7 +405,7 @@
       "latitude": 55.403327,
       "longitude": 55.548699,
       "city": "Пономаревка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -417,7 +414,7 @@
       "latitude": 54.409557,
       "longitude": 56.786723,
       "city": "Архангельское (Республика Башкортостан)",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -426,7 +423,7 @@
       "latitude": 54.407873,
       "longitude": 56.780584,
       "city": "Архангельское (Республика Башкортостан)",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -453,7 +450,7 @@
       "latitude": 53.047801,
       "longitude": 60.661359,
       "city": "Карталы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -471,7 +468,7 @@
       "latitude": 53.401644,
       "longitude": 59.348582,
       "city": "Буранный",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -507,7 +504,7 @@
       "latitude": 53.069525,
       "longitude": 60.660946,
       "city": "Карталы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -534,7 +531,7 @@
       "latitude": 54.910407,
       "longitude": 56.97277,
       "city": "Улу-Теляк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -552,7 +549,7 @@
       "latitude": 54.674346,
       "longitude": 56.090366,
       "city": "Карпово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -561,7 +558,7 @@
       "latitude": 56.237245,
       "longitude": 54.390307,
       "city": "Амзя",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -570,7 +567,7 @@
       "latitude": 56.245442,
       "longitude": 54.55508,
       "city": "Энергетик",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1488,7 +1485,7 @@
       "latitude": 54.98992,
       "longitude": 57.691569,
       "city": "Сим",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1497,7 +1494,7 @@
       "latitude": 55.008798,
       "longitude": 57.703112,
       "city": "Сим",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1506,7 +1503,7 @@
       "latitude": 54.987979,
       "longitude": 57.68369,
       "city": "Сим",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1515,7 +1512,7 @@
       "latitude": 55.070738,
       "longitude": 57.549766,
       "city": "Миньяр",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1524,7 +1521,7 @@
       "latitude": 55.068889,
       "longitude": 57.551655,
       "city": "Миньяр",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1533,7 +1530,7 @@
       "latitude": 52.723073,
       "longitude": 58.901433,
       "city": "Кизильское",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1551,7 +1548,7 @@
       "latitude": 55.00385,
       "longitude": 57.211454,
       "city": "Аша",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2721,7 +2718,7 @@
       "latitude": 55.846738,
       "longitude": 57.980026,
       "city": "Ярославка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2730,7 +2727,7 @@
       "latitude": 54.690742,
       "longitude": 55.018378,
       "city": "Языково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2739,7 +2736,7 @@
       "latitude": 54.82216,
       "longitude": 54.001624,
       "city": "Шаран",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2748,7 +2745,7 @@
       "latitude": 54.821913,
       "longitude": 54.000378,
       "city": "Шаран",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2757,7 +2754,7 @@
       "latitude": 54.659807,
       "longitude": 56.200811,
       "city": "Шамонино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2784,7 +2781,7 @@
       "latitude": 54.617113,
       "longitude": 55.931081,
       "city": "Чесноковка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2802,7 +2799,7 @@
       "latitude": 55.139161,
       "longitude": 54.652792,
       "city": "Чекмагуш",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2811,7 +2808,7 @@
       "latitude": 55.140958,
       "longitude": 54.639216,
       "city": "Чекмагуш",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2820,7 +2817,7 @@
       "latitude": 55.133245,
       "longitude": 54.654127,
       "city": "Чекмагуш",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2829,7 +2826,7 @@
       "latitude": 53.185474,
       "longitude": 55.181161,
       "city": "Федоровка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2838,7 +2835,7 @@
       "latitude": 53.176187,
       "longitude": 55.186011,
       "city": "Федоровка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2856,7 +2853,7 @@
       "latitude": 54.316899,
       "longitude": 59.379891,
       "city": "Учалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2865,7 +2862,7 @@
       "latitude": 54.361451,
       "longitude": 59.427404,
       "city": "Учалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2874,7 +2871,7 @@
       "latitude": 54.325627,
       "longitude": 59.374175,
       "city": "Учалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2883,7 +2880,7 @@
       "latitude": 54.314439,
       "longitude": 59.387659,
       "city": "Учалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2919,7 +2916,7 @@
       "latitude": 54.736459,
       "longitude": 55.994943,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2937,7 +2934,7 @@
       "latitude": 54.796456,
       "longitude": 55.960443,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2964,7 +2961,7 @@
       "latitude": 54.746115,
       "longitude": 55.913903,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2973,7 +2970,7 @@
       "latitude": 54.794376,
       "longitude": 55.86612,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2982,7 +2979,7 @@
       "latitude": 54.785651,
       "longitude": 56.128851,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2991,7 +2988,7 @@
       "latitude": 54.78772,
       "longitude": 56.128815,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3009,7 +3006,7 @@
       "latitude": 54.725856,
       "longitude": 56.008954,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3027,7 +3024,7 @@
       "latitude": 54.721533,
       "longitude": 55.988923,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3045,7 +3042,7 @@
       "latitude": 54.742938,
       "longitude": 56.025767,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3054,7 +3051,7 @@
       "latitude": 54.772724,
       "longitude": 56.228797,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3072,7 +3069,7 @@
       "latitude": 54.717172,
       "longitude": 55.844654,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3081,7 +3078,7 @@
       "latitude": 54.694726,
       "longitude": 55.853255,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3090,7 +3087,7 @@
       "latitude": 54.694112,
       "longitude": 55.819087,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3099,7 +3096,7 @@
       "latitude": 54.75639,
       "longitude": 56.010275,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3108,7 +3105,7 @@
       "latitude": 54.642711,
       "longitude": 55.703634,
       "city": "Уптино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3126,7 +3123,7 @@
       "latitude": 54.603584,
       "longitude": 53.72934,
       "city": "Туймазы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3153,7 +3150,7 @@
       "latitude": 54.215496,
       "longitude": 58.583232,
       "city": "Тирлянский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3162,7 +3159,7 @@
       "latitude": 52.992947,
       "longitude": 58.101445,
       "city": "Темясово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3171,7 +3168,7 @@
       "latitude": 54.881626,
       "longitude": 56.640327,
       "city": "Тавтиманово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3180,7 +3177,7 @@
       "latitude": 54.466247,
       "longitude": 55.952676,
       "city": "Суук-Чишма",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3189,7 +3186,7 @@
       "latitude": 54.556966,
       "longitude": 53.822217,
       "city": "Субханкулово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3198,7 +3195,7 @@
       "latitude": 53.628213,
       "longitude": 55.892172,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3207,7 +3204,7 @@
       "latitude": 53.630707,
       "longitude": 55.892623,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3216,7 +3213,7 @@
       "latitude": 53.643694,
       "longitude": 55.942633,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3234,7 +3231,7 @@
       "latitude": 53.643367,
       "longitude": 55.968038,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3243,7 +3240,7 @@
       "latitude": 53.640198,
       "longitude": 55.960772,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3252,7 +3249,7 @@
       "latitude": 53.694874,
       "longitude": 56.008322,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3261,7 +3258,7 @@
       "latitude": 53.441276,
       "longitude": 55.257416,
       "city": "Стерлибашево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3270,7 +3267,7 @@
       "latitude": 54.562893,
       "longitude": 56.049073,
       "city": "Старые Киешки",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3288,7 +3285,7 @@
       "latitude": 54.55657,
       "longitude": 53.80353,
       "city": "Старое Субханкулово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3297,7 +3294,7 @@
       "latitude": 56.001327,
       "longitude": 55.930688,
       "city": "Старобалтачево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3306,7 +3303,7 @@
       "latitude": 56.004448,
       "longitude": 55.909397,
       "city": "Старобалтачево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3315,7 +3312,7 @@
       "latitude": 54.42365,
       "longitude": 53.789479,
       "city": "Серафимовский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3333,7 +3330,7 @@
       "latitude": 55.363064,
       "longitude": 54.610591,
       "city": "Семилетка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3360,7 +3357,7 @@
       "latitude": 53.347432,
       "longitude": 55.923468,
       "city": "Салават",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3378,7 +3375,7 @@
       "latitude": 53.369152,
       "longitude": 55.942168,
       "city": "Салават",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3387,7 +3384,7 @@
       "latitude": 53.33492,
       "longitude": 55.920118,
       "city": "Салават",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3396,7 +3393,7 @@
       "latitude": 53.336949,
       "longitude": 55.955259,
       "city": "Салават",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3405,7 +3402,7 @@
       "latitude": 54.071609,
       "longitude": 54.946964,
       "city": "Раевский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3414,7 +3411,7 @@
       "latitude": 54.06502,
       "longitude": 54.916468,
       "city": "Раевский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3423,7 +3420,7 @@
       "latitude": 54.070882,
       "longitude": 54.924195,
       "city": "Раевский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3432,7 +3429,7 @@
       "latitude": 54.061164,
       "longitude": 54.930364,
       "city": "Раевский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3441,7 +3438,7 @@
       "latitude": 54.067023,
       "longitude": 54.940873,
       "city": "Раевский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3450,7 +3447,7 @@
       "latitude": 53.904187,
       "longitude": 53.92909,
       "city": "Приютово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3459,7 +3456,7 @@
       "latitude": 53.904673,
       "longitude": 53.939409,
       "city": "Приютово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3468,7 +3465,7 @@
       "latitude": 54.378331,
       "longitude": 56.449188,
       "city": "Прибельский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3477,7 +3474,7 @@
       "latitude": 54.869819,
       "longitude": 55.73514,
       "city": "Подымалово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3486,7 +3483,7 @@
       "latitude": 55.422298,
       "longitude": 56.555005,
       "city": "Павловка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3495,7 +3492,7 @@
       "latitude": 53.043719,
       "longitude": 56.443544,
       "city": "Нугуш",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3504,7 +3501,7 @@
       "latitude": 52.178603,
       "longitude": 56.580534,
       "city": "Новопавловка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3513,7 +3510,7 @@
       "latitude": 53.69757,
       "longitude": 55.946154,
       "city": "Новое Барятино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3531,7 +3528,7 @@
       "latitude": 55.709452,
       "longitude": 58.956263,
       "city": "Новобелокатай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3540,7 +3537,7 @@
       "latitude": 53.81012,
       "longitude": 58.643142,
       "city": "Новоабзаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3549,7 +3546,7 @@
       "latitude": 53.587936,
       "longitude": 55.895342,
       "city": "Новая Отрадовка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3558,7 +3555,7 @@
       "latitude": 56.12588,
       "longitude": 54.173924,
       "city": "Николо-Березовка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3576,7 +3573,7 @@
       "latitude": 54.60864,
       "longitude": 55.842186,
       "city": "Нижегородка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3585,7 +3582,7 @@
       "latitude": 56.086585,
       "longitude": 54.298528,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3594,7 +3591,7 @@
       "latitude": 54.642084,
       "longitude": 56.10744,
       "city": "Нагаево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3603,7 +3600,7 @@
       "latitude": 54.61862,
       "longitude": 56.123284,
       "city": "Нагаево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3612,7 +3609,7 @@
       "latitude": 54.615204,
       "longitude": 56.147604,
       "city": "Нагаево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3621,7 +3618,7 @@
       "latitude": 54.627365,
       "longitude": 56.133997,
       "city": "Нагаево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3630,7 +3627,7 @@
       "latitude": 54.622876,
       "longitude": 56.108969,
       "city": "Нагаево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3639,7 +3636,7 @@
       "latitude": 54.838138,
       "longitude": 55.83054,
       "city": "Мударисово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3648,7 +3645,7 @@
       "latitude": 55.534488,
       "longitude": 55.963076,
       "city": "Мишкино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3657,7 +3654,7 @@
       "latitude": 54.800274,
       "longitude": 55.872688,
       "city": "Михайловка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3666,7 +3663,7 @@
       "latitude": 54.82887,
       "longitude": 55.86554,
       "city": "Михайловка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3675,7 +3672,7 @@
       "latitude": 54.784476,
       "longitude": 55.834622,
       "city": "Миловка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3684,7 +3681,7 @@
       "latitude": 55.52806,
       "longitude": 58.245864,
       "city": "Месягутово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3693,7 +3690,7 @@
       "latitude": 55.531855,
       "longitude": 58.249984,
       "city": "Месягутово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3711,7 +3708,7 @@
       "latitude": 55.536433,
       "longitude": 58.244265,
       "city": "Месягутово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3720,7 +3717,7 @@
       "latitude": 52.967672,
       "longitude": 55.938038,
       "city": "Мелеуз",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3729,7 +3726,7 @@
       "latitude": 54.059965,
       "longitude": 57.826486,
       "city": "Межгорье",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3738,7 +3735,7 @@
       "latitude": 54.237569,
       "longitude": 57.959029,
       "city": "Межгорье",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3756,7 +3753,7 @@
       "latitude": 54.740968,
       "longitude": 55.795108,
       "city": "Мармылево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3765,7 +3762,7 @@
       "latitude": 55.179143,
       "longitude": 58.155441,
       "city": "Малояз",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3774,7 +3771,7 @@
       "latitude": 55.808324,
       "longitude": 54.534459,
       "city": "Куяново",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3783,7 +3780,7 @@
       "latitude": 55.10393,
       "longitude": 55.355322,
       "city": "Кушнаренково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3792,7 +3789,7 @@
       "latitude": 55.103108,
       "longitude": 55.361309,
       "city": "Кушнаренково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3810,7 +3807,7 @@
       "latitude": 55.10227,
       "longitude": 55.33806,
       "city": "Кушнаренково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3819,7 +3816,7 @@
       "latitude": 55.983907,
       "longitude": 55.044723,
       "city": "Краснохолмский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3828,7 +3825,7 @@
       "latitude": 53.886311,
       "longitude": 56.458208,
       "city": "Красноусольский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3837,7 +3834,7 @@
       "latitude": 53.890437,
       "longitude": 56.487488,
       "city": "Красноусольский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3846,7 +3843,7 @@
       "latitude": 53.892891,
       "longitude": 56.469033,
       "city": "Красноусольский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3855,7 +3852,7 @@
       "latitude": 55.189024,
       "longitude": 56.666204,
       "city": "Красная Горка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3864,7 +3861,7 @@
       "latitude": 55.19802,
       "longitude": 56.690923,
       "city": "Красная Горка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3873,7 +3870,7 @@
       "latitude": 55.192695,
       "longitude": 56.670678,
       "city": "Красная Горка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3882,7 +3879,7 @@
       "latitude": 53.63472,
       "longitude": 54.79671,
       "city": "Киргиз-Мияки",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3891,7 +3888,7 @@
       "latitude": 53.628442,
       "longitude": 54.804118,
       "city": "Киргиз-Мияки",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3900,7 +3897,7 @@
       "latitude": 53.630974,
       "longitude": 54.809182,
       "city": "Киргиз-Мияки",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3909,7 +3906,7 @@
       "latitude": 54.366412,
       "longitude": 56.180589,
       "city": "Кармаскалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3918,7 +3915,7 @@
       "latitude": 54.357031,
       "longitude": 56.153759,
       "city": "Кармаскалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3927,7 +3924,7 @@
       "latitude": 54.370412,
       "longitude": 56.171932,
       "city": "Кармаскалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3936,7 +3933,7 @@
       "latitude": 54.581909,
       "longitude": 56.274351,
       "city": "Карамалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3945,7 +3942,7 @@
       "latitude": 55.828995,
       "longitude": 56.916012,
       "city": "Караидель",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3954,7 +3951,7 @@
       "latitude": 54.551371,
       "longitude": 54.115198,
       "city": "Кандры",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3963,7 +3960,7 @@
       "latitude": 55.969818,
       "longitude": 54.804933,
       "city": "Калтасы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3972,7 +3969,7 @@
       "latitude": 54.532011,
       "longitude": 56.150317,
       "city": "Кабаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3981,7 +3978,7 @@
       "latitude": 53.445015,
       "longitude": 56.031261,
       "city": "Ишимбай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3990,7 +3987,7 @@
       "latitude": 53.435964,
       "longitude": 56.051812,
       "city": "Ишимбай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -3999,7 +3996,7 @@
       "latitude": 53.4582,
       "longitude": 56.040066,
       "city": "Ишимбай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4008,7 +4005,7 @@
       "latitude": 52.189667,
       "longitude": 56.586188,
       "city": "Исянгулово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4017,7 +4014,7 @@
       "latitude": 54.223296,
       "longitude": 57.576481,
       "city": "Инзер",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4026,7 +4023,7 @@
       "latitude": 54.7992,
       "longitude": 56.412808,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4035,7 +4032,7 @@
       "latitude": 54.834542,
       "longitude": 56.415364,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4044,7 +4041,7 @@
       "latitude": 54.816628,
       "longitude": 56.396607,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4053,7 +4050,7 @@
       "latitude": 54.829486,
       "longitude": 56.432627,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4062,7 +4059,7 @@
       "latitude": 54.827059,
       "longitude": 56.404522,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4071,7 +4068,7 @@
       "latitude": 54.82628,
       "longitude": 56.403215,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4080,7 +4077,7 @@
       "latitude": 54.821508,
       "longitude": 56.383923,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4089,7 +4086,7 @@
       "latitude": 54.827991,
       "longitude": 56.410075,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4098,7 +4095,7 @@
       "latitude": 54.807968,
       "longitude": 56.382211,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4107,7 +4104,7 @@
       "latitude": 54.830152,
       "longitude": 56.426538,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4116,7 +4113,7 @@
       "latitude": 54.844317,
       "longitude": 56.442915,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4125,7 +4122,7 @@
       "latitude": 54.815661,
       "longitude": 56.404914,
       "city": "Иглино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4134,7 +4131,7 @@
       "latitude": 54.615496,
       "longitude": 55.89045,
       "city": "Зубово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4143,7 +4140,7 @@
       "latitude": 54.633016,
       "longitude": 55.91995,
       "city": "Зубово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4161,7 +4158,7 @@
       "latitude": 54.615027,
       "longitude": 55.902606,
       "city": "Зубово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4170,7 +4167,7 @@
       "latitude": 53.222872,
       "longitude": 55.919789,
       "city": "Зирган",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4179,7 +4176,7 @@
       "latitude": 52.233024,
       "longitude": 57.440627,
       "city": "Зилаир",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4197,7 +4194,7 @@
       "latitude": 53.606702,
       "longitude": 58.613344,
       "city": "Зеленая Поляна",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4206,7 +4203,7 @@
       "latitude": 53.604853,
       "longitude": 58.616524,
       "city": "Зеленая Поляна",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4224,7 +4221,7 @@
       "latitude": 54.069236,
       "longitude": 53.673202,
       "city": "Ермекеево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4233,7 +4230,7 @@
       "latitude": 54.073642,
       "longitude": 53.674264,
       "city": "Ермекеево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4242,7 +4239,7 @@
       "latitude": 55.699152,
       "longitude": 57.89847,
       "city": "Дуван",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4251,7 +4248,7 @@
       "latitude": 54.814103,
       "longitude": 55.802296,
       "city": "Дмитриевка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4260,7 +4257,7 @@
       "latitude": 54.57891,
       "longitude": 55.670673,
       "city": "Дема",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4269,7 +4266,7 @@
       "latitude": 56.290717,
       "longitude": 55.855812,
       "city": "Верхние Татышлы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4278,7 +4275,7 @@
       "latitude": 56.275816,
       "longitude": 55.868907,
       "city": "Верхние Татышлы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4287,7 +4284,7 @@
       "latitude": 55.410527,
       "longitude": 58.601863,
       "city": "Верхние Киги",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4314,7 +4311,7 @@
       "latitude": 55.446483,
       "longitude": 54.315108,
       "city": "Верхнеяркеево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4323,7 +4320,7 @@
       "latitude": 55.833885,
       "longitude": 55.398045,
       "city": "Бураево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4332,7 +4329,7 @@
       "latitude": 55.840021,
       "longitude": 55.409421,
       "city": "Бураево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4341,7 +4338,7 @@
       "latitude": 55.837455,
       "longitude": 55.402551,
       "city": "Бураево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4350,7 +4347,7 @@
       "latitude": 54.500703,
       "longitude": 55.903857,
       "city": "Булгаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4359,7 +4356,7 @@
       "latitude": 54.477428,
       "longitude": 55.87674,
       "city": "Булгаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4368,7 +4365,7 @@
       "latitude": 54.498683,
       "longitude": 55.890332,
       "city": "Булгаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4377,7 +4374,7 @@
       "latitude": 54.499817,
       "longitude": 55.902667,
       "city": "Булгаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4395,7 +4392,7 @@
       "latitude": 54.570733,
       "longitude": 54.520507,
       "city": "Буздяк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4422,7 +4419,7 @@
       "latitude": 55.951243,
       "longitude": 58.268715,
       "city": "Большеустьикинское",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4431,7 +4428,7 @@
       "latitude": 55.027818,
       "longitude": 55.974356,
       "city": "Благовещенск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4440,7 +4437,7 @@
       "latitude": 53.694407,
       "longitude": 54.255306,
       "city": "Бижбуляк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4449,7 +4446,7 @@
       "latitude": 53.697196,
       "longitude": 54.270862,
       "city": "Бижбуляк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4458,7 +4455,7 @@
       "latitude": 54.108474,
       "longitude": 54.144632,
       "city": "Белебей",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4467,7 +4464,7 @@
       "latitude": 55.175057,
       "longitude": 53.806862,
       "city": "Бакалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4494,7 +4491,7 @@
       "latitude": 52.586148,
       "longitude": 58.311632,
       "city": "Баймак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4503,7 +4500,7 @@
       "latitude": 52.588844,
       "longitude": 58.299889,
       "city": "Баймак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4512,7 +4509,7 @@
       "latitude": 52.599771,
       "longitude": 58.314751,
       "city": "Баймак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4530,7 +4527,7 @@
       "latitude": 53.327907,
       "longitude": 58.511635,
       "city": "Аскарово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4539,7 +4536,7 @@
       "latitude": 53.337619,
       "longitude": 58.504332,
       "city": "Аскарово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4548,7 +4545,7 @@
       "latitude": 53.330558,
       "longitude": 58.551112,
       "city": "Аскарово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4557,7 +4554,7 @@
       "latitude": 53.334717,
       "longitude": 58.519464,
       "city": "Аскарово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4575,7 +4572,7 @@
       "latitude": 54.019167,
       "longitude": 54.149905,
       "city": "Аксаково",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4584,7 +4581,7 @@
       "latitude": 55.900825,
       "longitude": 53.926853,
       "city": "Агидель",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4593,7 +4590,7 @@
       "latitude": 55.898461,
       "longitude": 53.937947,
       "city": "Агидель",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4791,7 +4788,7 @@
       "latitude": 55.170838,
       "longitude": 61.463029,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5439,7 +5436,7 @@
       "latitude": 53.30773,
       "longitude": 50.285186,
       "city": "Мехзавод",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5673,7 +5670,7 @@
       "latitude": 53.50403,
       "longitude": 49.404614,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5700,7 +5697,7 @@
       "latitude": 53.510116,
       "longitude": 49.414936,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5754,7 +5751,7 @@
       "latitude": 54.741693,
       "longitude": 55.989799,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5826,7 +5823,7 @@
       "latitude": 54.78123,
       "longitude": 56.028197,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5835,7 +5832,7 @@
       "latitude": 54.785172,
       "longitude": 56.048577,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5862,7 +5859,7 @@
       "latitude": 54.820223,
       "longitude": 56.123947,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5889,7 +5886,7 @@
       "latitude": 54.792663,
       "longitude": 56.053404,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5898,7 +5895,7 @@
       "latitude": 54.817586,
       "longitude": 56.124086,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5934,7 +5931,7 @@
       "latitude": 54.779715,
       "longitude": 56.120795,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5943,7 +5940,7 @@
       "latitude": 54.776324,
       "longitude": 56.123652,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5952,7 +5949,7 @@
       "latitude": 54.780893,
       "longitude": 56.127128,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5961,7 +5958,7 @@
       "latitude": 54.77779,
       "longitude": 56.138052,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5970,7 +5967,7 @@
       "latitude": 54.779928,
       "longitude": 56.114709,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6015,7 +6012,7 @@
       "latitude": 54.725795,
       "longitude": 55.935119,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6024,7 +6021,7 @@
       "latitude": 54.729571,
       "longitude": 55.941695,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6042,7 +6039,7 @@
       "latitude": 54.698316,
       "longitude": 55.991001,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6060,7 +6057,7 @@
       "latitude": 54.73089,
       "longitude": 55.936503,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6069,7 +6066,7 @@
       "latitude": 54.732372,
       "longitude": 55.928349,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6078,7 +6075,7 @@
       "latitude": 54.707116,
       "longitude": 55.993262,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6087,7 +6084,7 @@
       "latitude": 54.71496,
       "longitude": 56.013869,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6105,7 +6102,7 @@
       "latitude": 53.615793,
       "longitude": 55.894666,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6114,7 +6111,7 @@
       "latitude": 53.620161,
       "longitude": 55.899333,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6123,7 +6120,7 @@
       "latitude": 53.633163,
       "longitude": 55.902246,
       "city": "Мариинский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6132,7 +6129,7 @@
       "latitude": 53.625935,
       "longitude": 55.902547,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6141,7 +6138,7 @@
       "latitude": 53.972384,
       "longitude": 58.409996,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6159,7 +6156,7 @@
       "latitude": 54.779155,
       "longitude": 56.030064,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6177,7 +6174,7 @@
       "latitude": 53.633324,
       "longitude": 55.931808,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6204,7 +6201,7 @@
       "latitude": 52.717152,
       "longitude": 58.666208,
       "city": "Сибай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6213,7 +6210,7 @@
       "latitude": 54.589161,
       "longitude": 55.39547,
       "city": "Чишмы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6231,7 +6228,7 @@
       "latitude": 54.770127,
       "longitude": 56.075476,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6240,7 +6237,7 @@
       "latitude": 56.083505,
       "longitude": 54.244746,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6249,7 +6246,7 @@
       "latitude": 54.763057,
       "longitude": 56.051441,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6267,7 +6264,7 @@
       "latitude": 56.10893,
       "longitude": 54.233553,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6276,7 +6273,7 @@
       "latitude": 54.768151,
       "longitude": 56.07983,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6285,7 +6282,7 @@
       "latitude": 54.773861,
       "longitude": 56.079969,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6294,7 +6291,7 @@
       "latitude": 54.77112,
       "longitude": 56.065569,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6303,7 +6300,7 @@
       "latitude": 56.08912,
       "longitude": 54.262008,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6312,7 +6309,7 @@
       "latitude": 54.781456,
       "longitude": 56.131929,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6321,7 +6318,7 @@
       "latitude": 53.380608,
       "longitude": 58.977621,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6330,7 +6327,7 @@
       "latitude": 54.605048,
       "longitude": 53.704176,
       "city": "Туймазы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6339,7 +6336,7 @@
       "latitude": 54.484487,
       "longitude": 53.487926,
       "city": "Октябрьский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6348,7 +6345,7 @@
       "latitude": 54.480944,
       "longitude": 53.51831,
       "city": "Октябрьский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6357,7 +6354,7 @@
       "latitude": 54.593135,
       "longitude": 53.693029,
       "city": "Туймазы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6375,7 +6372,7 @@
       "latitude": 54.603357,
       "longitude": 53.702277,
       "city": "Туймазы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6384,7 +6381,7 @@
       "latitude": 54.477843,
       "longitude": 53.512854,
       "city": "Октябрьский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6429,7 +6426,7 @@
       "latitude": 54.711414,
       "longitude": 55.829554,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6438,7 +6435,7 @@
       "latitude": 54.71187,
       "longitude": 55.818347,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6456,7 +6453,7 @@
       "latitude": 54.764202,
       "longitude": 56.028627,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6465,7 +6462,7 @@
       "latitude": 53.369866,
       "longitude": 58.980378,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6510,7 +6507,7 @@
       "latitude": 53.621367,
       "longitude": 55.949121,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6519,7 +6516,7 @@
       "latitude": 53.631757,
       "longitude": 55.952039,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6528,7 +6525,7 @@
       "latitude": 53.60144,
       "longitude": 55.942342,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6537,7 +6534,7 @@
       "latitude": 54.103166,
       "longitude": 54.100181,
       "city": "Белебей",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6546,7 +6543,7 @@
       "latitude": 53.334487,
       "longitude": 55.926617,
       "city": "Салават",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6555,7 +6552,7 @@
       "latitude": 53.616945,
       "longitude": 55.901052,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6564,7 +6561,7 @@
       "latitude": 53.344741,
       "longitude": 55.926012,
       "city": "Салават",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6582,7 +6579,7 @@
       "latitude": 53.621775,
       "longitude": 55.963209,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6591,7 +6588,7 @@
       "latitude": 53.615041,
       "longitude": 55.904295,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6609,7 +6606,7 @@
       "latitude": 58.082146,
       "longitude": 55.747317,
       "city": "Краснокамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8454,7 +8451,7 @@
       "latitude": 54.817602,
       "longitude": 56.112987,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8463,7 +8460,7 @@
       "latitude": 53.615686,
       "longitude": 55.898726,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8472,7 +8469,7 @@
       "latitude": 56.103512,
       "longitude": 54.226574,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8553,7 +8550,7 @@
       "latitude": 54.821484,
       "longitude": 56.07784,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8598,7 +8595,7 @@
       "latitude": 54.793677,
       "longitude": 56.265771,
       "city": "Дорогино",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -46155,7 +46152,7 @@
       "latitude": 54.900885,
       "longitude": 52.266551,
       "city": "Альметьевск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -47811,7 +47808,7 @@
       "latitude": 54.826879,
       "longitude": 61.592416,
       "city": "Еткуль",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -51177,7 +51174,7 @@
       "latitude": 53.957249,
       "longitude": 58.405329,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -52356,7 +52353,7 @@
       "latitude": 53.97003,
       "longitude": 58.406905,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -52365,7 +52362,7 @@
       "latitude": 53.971807,
       "longitude": 58.418331,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -52734,7 +52731,7 @@
       "latitude": 54.812838,
       "longitude": 56.058572,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -53904,7 +53901,7 @@
       "latitude": 52.725222,
       "longitude": 58.671278,
       "city": "Сибай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -53976,7 +53973,7 @@
       "latitude": 53.641864,
       "longitude": 55.939953,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54129,7 +54126,7 @@
       "latitude": 54.757263,
       "longitude": 55.994144,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54642,7 +54639,7 @@
       "latitude": 53.401206,
       "longitude": 58.978973,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54993,7 +54990,7 @@
       "latitude": 53.627558,
       "longitude": 55.896688,
       "city": "Стерлитамак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -55317,7 +55314,7 @@
       "latitude": 55.496363,
       "longitude": 54.847715,
       "city": "Дюртюли",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -55326,7 +55323,7 @@
       "latitude": 53.960181,
       "longitude": 58.405516,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -55362,7 +55359,7 @@
       "latitude": 53.964552,
       "longitude": 58.411484,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -55434,7 +55431,7 @@
       "latitude": 53.967075,
       "longitude": 58.418763,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -55659,7 +55656,7 @@
       "latitude": 53.964158,
       "longitude": 58.397253,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -56523,7 +56520,7 @@
       "latitude": 52.963578,
       "longitude": 55.926709,
       "city": "Мелеуз",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58503,7 +58500,7 @@
       "latitude": 53.382962,
       "longitude": 58.967837,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58557,7 +58554,7 @@
       "latitude": 53.398402,
       "longitude": 58.976788,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58647,7 +58644,7 @@
       "latitude": 56.266699,
       "longitude": 54.933897,
       "city": "Янаул",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58701,7 +58698,7 @@
       "latitude": 54.816044,
       "longitude": 56.066663,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58728,7 +58725,7 @@
       "latitude": 54.76886,
       "longitude": 56.03456,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58809,7 +58806,7 @@
       "latitude": 56.080009,
       "longitude": 54.246897,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58836,7 +58833,7 @@
       "latitude": 52.971031,
       "longitude": 55.936019,
       "city": "Мелеуз",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58881,7 +58878,7 @@
       "latitude": 56.0738,
       "longitude": 54.286143,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58890,7 +58887,7 @@
       "latitude": 54.212719,
       "longitude": 55.028104,
       "city": "Давлеканово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58908,7 +58905,7 @@
       "latitude": 55.048286,
       "longitude": 55.956534,
       "city": "Благовещенск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -58935,7 +58932,7 @@
       "latitude": 53.971097,
       "longitude": 58.423509,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59169,7 +59166,7 @@
       "latitude": 55.051117,
       "longitude": 55.952608,
       "city": "Благовещенск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59187,7 +59184,7 @@
       "latitude": 55.484817,
       "longitude": 54.849932,
       "city": "Дюртюли",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59313,7 +59310,7 @@
       "latitude": 56.089681,
       "longitude": 54.2512,
       "city": "Нефтекамск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59565,7 +59562,7 @@
       "latitude": 54.803982,
       "longitude": 56.125208,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59979,7 +59976,7 @@
       "latitude": 54.806811,
       "longitude": 56.129927,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60006,7 +60003,7 @@
       "latitude": 53.428411,
       "longitude": 58.983925,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60033,7 +60030,7 @@
       "latitude": 54.815359,
       "longitude": 56.117718,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60042,7 +60039,7 @@
       "latitude": 53.362219,
       "longitude": 58.969446,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60609,7 +60606,7 @@
       "latitude": 53.374273,
       "longitude": 58.981148,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60807,7 +60804,7 @@
       "latitude": 53.431215,
       "longitude": 58.979125,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60942,7 +60939,7 @@
       "latitude": 53.403883,
       "longitude": 58.971842,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61194,7 +61191,7 @@
       "latitude": 53.351677,
       "longitude": 58.979339,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61311,7 +61308,7 @@
       "latitude": 53.398258,
       "longitude": 58.9705,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61365,7 +61362,7 @@
       "latitude": 53.416521,
       "longitude": 58.983578,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61383,7 +61380,7 @@
       "latitude": 54.800705,
       "longitude": 56.127386,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61392,7 +61389,7 @@
       "latitude": 53.384862,
       "longitude": 58.977161,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61410,7 +61407,7 @@
       "latitude": 54.818116,
       "longitude": 56.109636,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -62211,7 +62208,7 @@
       "latitude": 54.79171,
       "longitude": 56.033363,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -62220,7 +62217,7 @@
       "latitude": 54.739867,
       "longitude": 56.027444,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -63255,7 +63252,7 @@
       "latitude": 53.407552,
       "longitude": 58.962254,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -65928,7 +65925,7 @@
       "latitude": 54.692436,
       "longitude": 55.967889,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -67998,7 +67995,7 @@
       "latitude": 54.767316,
       "longitude": 56.027295,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -68961,7 +68958,7 @@
       "latitude": 52.720498,
       "longitude": 58.663968,
       "city": "Сибай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -70374,7 +70371,7 @@
       "latitude": 54.805489,
       "longitude": 56.112034,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -70419,7 +70416,7 @@
       "latitude": 54.81369,
       "longitude": 56.063502,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -70545,7 +70542,7 @@
       "latitude": 54.708456,
       "longitude": 55.822327,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -72183,7 +72180,7 @@
       "latitude": 54.701201,
       "longitude": 55.823446,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73182,7 +73179,7 @@
       "latitude": 54.792656,
       "longitude": 55.861284,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73218,7 +73215,7 @@
       "latitude": 54.711303,
       "longitude": 55.822217,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73227,7 +73224,7 @@
       "latitude": 54.7819,
       "longitude": 56.0739,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73317,7 +73314,7 @@
       "latitude": 54.699215,
       "longitude": 55.996551,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73578,7 +73575,7 @@
       "latitude": 54.486943,
       "longitude": 53.498966,
       "city": "Октябрьский",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73722,7 +73719,7 @@
       "latitude": 54.730624,
       "longitude": 55.938301,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73740,7 +73737,7 @@
       "latitude": 55.497529,
       "longitude": 54.852758,
       "city": "Дюртюли",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -75909,7 +75906,7 @@
       "latitude": 54.707061,
       "longitude": 55.828898,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -76395,7 +76392,7 @@
       "latitude": 54.776393,
       "longitude": 56.072573,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -78312,7 +78309,7 @@
       "latitude": 53.422305,
       "longitude": 58.999932,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -78357,7 +78354,7 @@
       "latitude": 53.963911,
       "longitude": 58.370195,
       "city": "Белорецк",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -78366,7 +78363,7 @@
       "latitude": 52.727186,
       "longitude": 58.686774,
       "city": "Сибай",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -78375,7 +78372,7 @@
       "latitude": 53.385849,
       "longitude": 59.067628,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -78492,7 +78489,7 @@
       "latitude": 53.35489,
       "longitude": 58.961229,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -80247,7 +80244,7 @@
       "latitude": 54.77369,
       "longitude": 56.11593,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -80994,7 +80991,7 @@
       "latitude": 55.591264,
       "longitude": 37.663641,
       "city": "Москва",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -84054,7 +84051,7 @@
       "latitude": 55.771518,
       "longitude": 37.731607,
       "city": "Москва",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -87105,7 +87102,7 @@
       "latitude": 54.796607,
       "longitude": 56.055998,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -88734,7 +88731,7 @@
       "latitude": 54.721786,
       "longitude": 56.020896,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -89130,7 +89127,7 @@
       "latitude": 54.762052,
       "longitude": 55.999597,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
