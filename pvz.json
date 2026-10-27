@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-01T10:34:32.696Z",
+  "updated_at": "2026-10-27T06:49:06.240Z",
   "cities_without_pvz": [
     "Город",
     "Балаково",
@@ -117,7 +117,7 @@
       "latitude": 54.355606,
       "longitude": 60.812502,
       "city": "Пласт",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -207,7 +207,7 @@
       "latitude": 54.755944,
       "longitude": 61.319505,
       "city": "Еманжелинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -288,7 +288,7 @@
       "latitude": 55.248763,
       "longitude": 61.399927,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -360,7 +360,7 @@
       "latitude": 53.87683,
       "longitude": 59.219629,
       "city": "Верхнеуральск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -432,7 +432,7 @@
       "latitude": 53.521568,
       "longitude": 59.809137,
       "city": "Фершампенуаз",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -477,7 +477,7 @@
       "latitude": 53.04995,
       "longitude": 60.641141,
       "city": "Карталы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -774,7 +774,7 @@
       "latitude": 56.111702,
       "longitude": 47.243648,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -819,7 +819,7 @@
       "latitude": 56.147931,
       "longitude": 47.188527,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -873,7 +873,7 @@
       "latitude": 56.130643,
       "longitude": 47.287806,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1098,7 +1098,7 @@
       "latitude": 56.124025,
       "longitude": 47.516088,
       "city": "Новочебоксарск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1791,7 +1791,7 @@
       "latitude": 55.7142,
       "longitude": 49.347729,
       "city": "Куюки",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1827,7 +1827,7 @@
       "latitude": 55.86017,
       "longitude": 49.096338,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1836,7 +1836,7 @@
       "latitude": 55.875479,
       "longitude": 49.06905,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1845,7 +1845,7 @@
       "latitude": 55.870393,
       "longitude": 49.094659,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1863,7 +1863,7 @@
       "latitude": 55.862449,
       "longitude": 49.100446,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1872,7 +1872,7 @@
       "latitude": 55.852492,
       "longitude": 48.90385,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1908,7 +1908,7 @@
       "latitude": 55.785213,
       "longitude": 49.18821,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1917,7 +1917,7 @@
       "latitude": 55.767361,
       "longitude": 49.104306,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1935,7 +1935,7 @@
       "latitude": 55.767786,
       "longitude": 49.134577,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1944,7 +1944,7 @@
       "latitude": 55.77008,
       "longitude": 49.131997,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1980,7 +1980,7 @@
       "latitude": 55.799204,
       "longitude": 49.242743,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -1998,7 +1998,7 @@
       "latitude": 55.806274,
       "longitude": 49.228556,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2133,7 +2133,7 @@
       "latitude": 55.853281,
       "longitude": 48.49588,
       "city": "Зеленодольск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2322,7 +2322,7 @@
       "latitude": 56.07901,
       "longitude": 49.87855,
       "city": "Арск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2700,7 +2700,7 @@
       "latitude": 55.884218,
       "longitude": 48.376118,
       "city": "Волжск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2907,7 +2907,7 @@
       "latitude": 54.301019,
       "longitude": 59.45569,
       "city": "Учалы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4302,7 +4302,7 @@
       "latitude": 55.445818,
       "longitude": 54.316299,
       "city": "Верхнеяркеево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4617,7 +4617,7 @@
       "latitude": 55.175731,
       "longitude": 61.456041,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4698,7 +4698,7 @@
       "latitude": 55.170037,
       "longitude": 61.452163,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4968,7 +4968,7 @@
       "latitude": 53.536852,
       "longitude": 49.352968,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -4986,7 +4986,7 @@
       "latitude": 53.545968,
       "longitude": 49.330938,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5004,7 +5004,7 @@
       "latitude": 53.198965,
       "longitude": 50.177543,
       "city": "Самара",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5022,7 +5022,7 @@
       "latitude": 53.545615,
       "longitude": 49.325207,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5193,7 +5193,7 @@
       "latitude": 53.533776,
       "longitude": 49.344274,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5274,7 +5274,7 @@
       "latitude": 53.346904,
       "longitude": 50.214172,
       "city": "Управленческий",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5634,7 +5634,7 @@
       "latitude": 53.507886,
       "longitude": 49.446734,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5715,7 +5715,7 @@
       "latitude": 53.509342,
       "longitude": 49.422887,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5922,7 +5922,7 @@
       "latitude": 54.791058,
       "longitude": 56.042553,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6678,7 +6678,7 @@
       "latitude": 55.894227,
       "longitude": 52.317003,
       "city": "Менделеевск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6912,7 +6912,7 @@
       "latitude": 56.837547,
       "longitude": 53.218002,
       "city": "Ижевск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7011,7 +7011,7 @@
       "latitude": 56.118414,
       "longitude": 47.207576,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7020,7 +7020,7 @@
       "latitude": 55.854827,
       "longitude": 49.083787,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7047,7 +7047,7 @@
       "latitude": 55.861814,
       "longitude": 49.090231,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7056,7 +7056,7 @@
       "latitude": 55.864849,
       "longitude": 49.078485,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7065,7 +7065,7 @@
       "latitude": 55.862866,
       "longitude": 49.083865,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7074,7 +7074,7 @@
       "latitude": 55.857417,
       "longitude": 49.085288,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7083,7 +7083,7 @@
       "latitude": 55.854949,
       "longitude": 48.897875,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7092,7 +7092,7 @@
       "latitude": 55.868667,
       "longitude": 49.089002,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7101,7 +7101,7 @@
       "latitude": 55.867094,
       "longitude": 48.880609,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7110,7 +7110,7 @@
       "latitude": 55.857687,
       "longitude": 48.908608,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7128,7 +7128,7 @@
       "latitude": 55.85725,
       "longitude": 48.896247,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7173,7 +7173,7 @@
       "latitude": 56.138231,
       "longitude": 47.150061,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7182,7 +7182,7 @@
       "latitude": 56.135273,
       "longitude": 47.161441,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7209,7 +7209,7 @@
       "latitude": 56.132476,
       "longitude": 47.158507,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7227,7 +7227,7 @@
       "latitude": 55.782942,
       "longitude": 49.16907,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7254,7 +7254,7 @@
       "latitude": 55.785244,
       "longitude": 49.185306,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7263,7 +7263,7 @@
       "latitude": 55.797844,
       "longitude": 49.191526,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7272,7 +7272,7 @@
       "latitude": 55.787524,
       "longitude": 49.217518,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7281,7 +7281,7 @@
       "latitude": 55.80214,
       "longitude": 49.186726,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7290,7 +7290,7 @@
       "latitude": 55.788577,
       "longitude": 49.151416,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7299,7 +7299,7 @@
       "latitude": 55.76271,
       "longitude": 49.177428,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7308,7 +7308,7 @@
       "latitude": 55.770599,
       "longitude": 49.148659,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7326,7 +7326,7 @@
       "latitude": 55.729816,
       "longitude": 49.189816,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7335,7 +7335,7 @@
       "latitude": 55.745036,
       "longitude": 49.185157,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7362,7 +7362,7 @@
       "latitude": 55.754159,
       "longitude": 49.189509,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7371,7 +7371,7 @@
       "latitude": 55.765063,
       "longitude": 49.178939,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7380,7 +7380,7 @@
       "latitude": 55.764995,
       "longitude": 49.145483,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7389,7 +7389,7 @@
       "latitude": 55.762106,
       "longitude": 49.178546,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7434,7 +7434,7 @@
       "latitude": 55.731856,
       "longitude": 49.173598,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7443,7 +7443,7 @@
       "latitude": 56.090996,
       "longitude": 49.880837,
       "city": "Арск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7479,7 +7479,7 @@
       "latitude": 55.788293,
       "longitude": 49.227183,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7542,7 +7542,7 @@
       "latitude": 55.823385,
       "longitude": 49.121702,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7596,7 +7596,7 @@
       "latitude": 55.765903,
       "longitude": 49.233234,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7614,7 +7614,7 @@
       "latitude": 55.776413,
       "longitude": 49.218133,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7632,7 +7632,7 @@
       "latitude": 55.783216,
       "longitude": 49.223106,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7641,7 +7641,7 @@
       "latitude": 55.777309,
       "longitude": 49.221931,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7650,7 +7650,7 @@
       "latitude": 55.755283,
       "longitude": 49.232071,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7668,7 +7668,7 @@
       "latitude": 55.755443,
       "longitude": 49.227409,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7695,7 +7695,7 @@
       "latitude": 55.77862,
       "longitude": 49.230362,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7704,7 +7704,7 @@
       "latitude": 55.782806,
       "longitude": 49.227102,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7767,7 +7767,7 @@
       "latitude": 56.100565,
       "longitude": 47.289695,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7776,7 +7776,7 @@
       "latitude": 56.093085,
       "longitude": 47.285892,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7785,7 +7785,7 @@
       "latitude": 56.105208,
       "longitude": 47.280935,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7830,7 +7830,7 @@
       "latitude": 56.102501,
       "longitude": 47.309468,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7839,7 +7839,7 @@
       "latitude": 56.093325,
       "longitude": 47.285636,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7848,7 +7848,7 @@
       "latitude": 56.11024,
       "longitude": 47.268607,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7866,7 +7866,7 @@
       "latitude": 55.850615,
       "longitude": 48.500491,
       "city": "Зеленодольск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7884,7 +7884,7 @@
       "latitude": 55.866809,
       "longitude": 48.337217,
       "city": "Волжск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7893,7 +7893,7 @@
       "latitude": 56.125534,
       "longitude": 47.379533,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7902,7 +7902,7 @@
       "latitude": 56.143425,
       "longitude": 47.259719,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7911,7 +7911,7 @@
       "latitude": 56.114146,
       "longitude": 47.263548,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7929,7 +7929,7 @@
       "latitude": 56.112714,
       "longitude": 47.485372,
       "city": "Новочебоксарск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7938,7 +7938,7 @@
       "latitude": 56.113834,
       "longitude": 47.454382,
       "city": "Новочебоксарск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7956,7 +7956,7 @@
       "latitude": 56.123705,
       "longitude": 47.192389,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7983,7 +7983,7 @@
       "latitude": 55.837916,
       "longitude": 49.151373,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8001,7 +8001,7 @@
       "latitude": 55.831826,
       "longitude": 49.148191,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8010,7 +8010,7 @@
       "latitude": 55.821735,
       "longitude": 49.109551,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8019,7 +8019,7 @@
       "latitude": 55.835964,
       "longitude": 49.098374,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8037,7 +8037,7 @@
       "latitude": 55.832719,
       "longitude": 49.092085,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8046,7 +8046,7 @@
       "latitude": 55.836211,
       "longitude": 49.104515,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8100,7 +8100,7 @@
       "latitude": 55.819301,
       "longitude": 49.056584,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8118,7 +8118,7 @@
       "latitude": 55.829064,
       "longitude": 49.080009,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8136,7 +8136,7 @@
       "latitude": 55.826178,
       "longitude": 49.085708,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8145,7 +8145,7 @@
       "latitude": 55.829101,
       "longitude": 49.05704,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8172,7 +8172,7 @@
       "latitude": 55.815364,
       "longitude": 49.085959,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8253,7 +8253,7 @@
       "latitude": 55.749319,
       "longitude": 49.229525,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8262,7 +8262,7 @@
       "latitude": 55.722652,
       "longitude": 49.328929,
       "city": "Куюки",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8271,7 +8271,7 @@
       "latitude": 55.747636,
       "longitude": 49.22734,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8280,7 +8280,7 @@
       "latitude": 55.747687,
       "longitude": 49.214006,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8316,7 +8316,7 @@
       "latitude": 56.126335,
       "longitude": 47.263425,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8334,7 +8334,7 @@
       "latitude": 56.136132,
       "longitude": 47.255539,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8397,7 +8397,7 @@
       "latitude": 56.318224,
       "longitude": 44.030169,
       "city": "Нижний Новгород",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8415,7 +8415,7 @@
       "latitude": 56.309843,
       "longitude": 44.023281,
       "city": "Нижний Новгород",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8478,7 +8478,7 @@
       "latitude": 55.85837,
       "longitude": 48.904561,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8487,7 +8487,7 @@
       "latitude": 55.773935,
       "longitude": 49.136888,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8496,7 +8496,7 @@
       "latitude": 55.792505,
       "longitude": 49.22424,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8505,7 +8505,7 @@
       "latitude": 55.766528,
       "longitude": 49.224554,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8514,7 +8514,7 @@
       "latitude": 55.769306,
       "longitude": 49.233227,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8541,7 +8541,7 @@
       "latitude": 55.746524,
       "longitude": 49.221084,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8568,7 +8568,7 @@
       "latitude": 55.724376,
       "longitude": 49.174998,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8586,7 +8586,7 @@
       "latitude": 55.745165,
       "longitude": 49.21573,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8658,7 +8658,7 @@
       "latitude": 56.110477,
       "longitude": 47.186451,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8721,7 +8721,7 @@
       "latitude": 56.122466,
       "longitude": 47.175206,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8784,7 +8784,7 @@
       "latitude": 56.117378,
       "longitude": 47.183278,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8802,7 +8802,7 @@
       "latitude": 56.12289,
       "longitude": 47.179949,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8811,7 +8811,7 @@
       "latitude": 56.11542,
       "longitude": 47.187894,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8847,7 +8847,7 @@
       "latitude": 56.112438,
       "longitude": 47.184032,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8874,7 +8874,7 @@
       "latitude": 56.118779,
       "longitude": 47.18113,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -10548,7 +10548,7 @@
       "latitude": 55.111863,
       "longitude": 38.170337,
       "city": "Малино",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -10935,7 +10935,7 @@
       "latitude": 44.88352,
       "longitude": 39.191392,
       "city": "Адыгейск",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -11412,7 +11412,7 @@
       "latitude": 43.436092,
       "longitude": 39.91584,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -11484,7 +11484,7 @@
       "latitude": 43.587863,
       "longitude": 39.747089,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -11565,7 +11565,7 @@
       "latitude": 43.596561,
       "longitude": 39.728487,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -11817,7 +11817,7 @@
       "latitude": 43.618356,
       "longitude": 39.7242,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -11979,7 +11979,7 @@
       "latitude": 43.607556,
       "longitude": 39.721531,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12096,7 +12096,7 @@
       "latitude": 43.471076,
       "longitude": 39.972704,
       "city": "Высокое",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12123,7 +12123,7 @@
       "latitude": 43.397887,
       "longitude": 39.996059,
       "city": "Сириус",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12168,7 +12168,7 @@
       "latitude": 44.321472,
       "longitude": 38.695586,
       "city": "Джубга",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12186,7 +12186,7 @@
       "latitude": 44.103546,
       "longitude": 39.071375,
       "city": "Туапсе",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12465,7 +12465,7 @@
       "latitude": 44.631533,
       "longitude": 39.106181,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12564,7 +12564,7 @@
       "latitude": 43.657153,
       "longitude": 39.697284,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -12708,7 +12708,7 @@
       "latitude": 44.304614,
       "longitude": 38.753098,
       "city": "Лермонтово",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -13212,7 +13212,7 @@
       "latitude": 43.455432,
       "longitude": 39.903562,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -13356,7 +13356,7 @@
       "latitude": 43.681535,
       "longitude": 39.654644,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -13653,7 +13653,7 @@
       "latitude": 43.627569,
       "longitude": 39.71919,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -13968,7 +13968,7 @@
       "latitude": 44.981604,
       "longitude": 39.103791,
       "city": "Тлюстенхабль",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14022,7 +14022,7 @@
       "latitude": 43.620015,
       "longitude": 39.711778,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14031,7 +14031,7 @@
       "latitude": 43.663929,
       "longitude": 39.649181,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14040,7 +14040,7 @@
       "latitude": 43.580994,
       "longitude": 39.766463,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14067,7 +14067,7 @@
       "latitude": 43.65864,
       "longitude": 39.651713,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14112,7 +14112,7 @@
       "latitude": 43.635124,
       "longitude": 39.698609,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14121,7 +14121,7 @@
       "latitude": 43.600623,
       "longitude": 39.720798,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14211,7 +14211,7 @@
       "latitude": 43.717323,
       "longitude": 39.603134,
       "city": "Горное Лоо",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14220,7 +14220,7 @@
       "latitude": 43.422259,
       "longitude": 39.963656,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14346,7 +14346,7 @@
       "latitude": 44.649408,
       "longitude": 39.178351,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14400,7 +14400,7 @@
       "latitude": 44.710606,
       "longitude": 39.21644,
       "city": "Саратовская",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14418,7 +14418,7 @@
       "latitude": 43.631807,
       "longitude": 39.714101,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14481,7 +14481,7 @@
       "latitude": 43.497517,
       "longitude": 39.893311,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14589,7 +14589,7 @@
       "latitude": 44.183208,
       "longitude": 38.973521,
       "city": "Тюменский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14607,7 +14607,7 @@
       "latitude": 44.633082,
       "longitude": 39.131697,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14616,7 +14616,7 @@
       "latitude": 43.623811,
       "longitude": 39.728839,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14625,7 +14625,7 @@
       "latitude": 43.585874,
       "longitude": 39.7461,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14634,7 +14634,7 @@
       "latitude": 43.424296,
       "longitude": 40.008792,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14643,7 +14643,7 @@
       "latitude": 43.456112,
       "longitude": 39.905477,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14652,7 +14652,7 @@
       "latitude": 43.621474,
       "longitude": 39.754177,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14679,7 +14679,7 @@
       "latitude": 43.619233,
       "longitude": 39.722187,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14751,7 +14751,7 @@
       "latitude": 43.61419,
       "longitude": 39.714466,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14787,7 +14787,7 @@
       "latitude": 43.494468,
       "longitude": 39.898364,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14895,7 +14895,7 @@
       "latitude": 43.587337,
       "longitude": 39.804379,
       "city": "Краевско-Армянское",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14949,7 +14949,7 @@
       "latitude": 44.637929,
       "longitude": 39.120008,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14976,7 +14976,7 @@
       "latitude": 44.634695,
       "longitude": 39.117441,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -14985,7 +14985,7 @@
       "latitude": 44.633912,
       "longitude": 39.127582,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15012,7 +15012,7 @@
       "latitude": 43.676427,
       "longitude": 40.207508,
       "city": "Красная Поляна",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15030,7 +15030,7 @@
       "latitude": 43.412271,
       "longitude": 40.003894,
       "city": "Веселое",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15066,7 +15066,7 @@
       "latitude": 43.622338,
       "longitude": 39.721971,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15075,7 +15075,7 @@
       "latitude": 43.448037,
       "longitude": 39.908257,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15084,7 +15084,7 @@
       "latitude": 43.512394,
       "longitude": 39.870592,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15219,7 +15219,7 @@
       "latitude": 43.421258,
       "longitude": 40.008243,
       "city": "Веселое",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15264,7 +15264,7 @@
       "latitude": 44.198972,
       "longitude": 38.887967,
       "city": "Ольгинка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15327,7 +15327,7 @@
       "latitude": 43.623807,
       "longitude": 39.720963,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15354,7 +15354,7 @@
       "latitude": 43.513737,
       "longitude": 39.867708,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15363,7 +15363,7 @@
       "latitude": 43.596579,
       "longitude": 39.732988,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15390,7 +15390,7 @@
       "latitude": 43.43268,
       "longitude": 39.96185,
       "city": "Верхневеселое",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15498,7 +15498,7 @@
       "latitude": 43.495453,
       "longitude": 39.911156,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15525,7 +15525,7 @@
       "latitude": 43.62678,
       "longitude": 39.725586,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15534,7 +15534,7 @@
       "latitude": 43.62362,
       "longitude": 39.724047,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15543,7 +15543,7 @@
       "latitude": 43.500817,
       "longitude": 39.891213,
       "city": "Кудепста",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15561,7 +15561,7 @@
       "latitude": 43.621287,
       "longitude": 39.728895,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15579,7 +15579,7 @@
       "latitude": 43.511748,
       "longitude": 39.865973,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15588,7 +15588,7 @@
       "latitude": 43.427984,
       "longitude": 39.981344,
       "city": "Верхневеселое",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15660,7 +15660,7 @@
       "latitude": 43.510569,
       "longitude": 39.867894,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15741,7 +15741,7 @@
       "latitude": 44.099525,
       "longitude": 39.068908,
       "city": "Туапсе",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15750,7 +15750,7 @@
       "latitude": 44.121672,
       "longitude": 39.07227,
       "city": "Туапсе",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15768,7 +15768,7 @@
       "latitude": 44.646009,
       "longitude": 39.16289,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15831,7 +15831,7 @@
       "latitude": 44.25338,
       "longitude": 38.84548,
       "city": "Новомихайловский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15849,7 +15849,7 @@
       "latitude": 43.731182,
       "longitude": 39.549014,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16002,7 +16002,7 @@
       "latitude": 43.911558,
       "longitude": 39.335445,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16011,7 +16011,7 @@
       "latitude": 43.49411,
       "longitude": 39.889512,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16020,7 +16020,7 @@
       "latitude": 43.409529,
       "longitude": 40.00268,
       "city": "Веселое",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16191,7 +16191,7 @@
       "latitude": 43.685736,
       "longitude": 39.597121,
       "city": "Нижнее Учдере",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16200,7 +16200,7 @@
       "latitude": 43.587209,
       "longitude": 39.759722,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16209,7 +16209,7 @@
       "latitude": 43.661845,
       "longitude": 39.649546,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16218,7 +16218,7 @@
       "latitude": 43.706094,
       "longitude": 39.58695,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16227,7 +16227,7 @@
       "latitude": 43.66226,
       "longitude": 39.672543,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16254,7 +16254,7 @@
       "latitude": 43.70102,
       "longitude": 39.586514,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16263,7 +16263,7 @@
       "latitude": 43.66311,
       "longitude": 39.651015,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16326,7 +16326,7 @@
       "latitude": 44.16893,
       "longitude": 39.000434,
       "city": "Небуг",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16425,7 +16425,7 @@
       "latitude": 43.588144,
       "longitude": 39.742405,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16434,7 +16434,7 @@
       "latitude": 43.652734,
       "longitude": 39.649631,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16443,7 +16443,7 @@
       "latitude": 43.688286,
       "longitude": 39.6106,
       "city": "Нижнее Учдере",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16452,7 +16452,7 @@
       "latitude": 43.722866,
       "longitude": 39.575039,
       "city": "Нижняя Хобза",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16461,7 +16461,7 @@
       "latitude": 43.590494,
       "longitude": 39.754463,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16470,7 +16470,7 @@
       "latitude": 43.566147,
       "longitude": 39.761758,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16542,7 +16542,7 @@
       "latitude": 44.98932,
       "longitude": 38.952847,
       "city": "Яблоновский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16578,7 +16578,7 @@
       "latitude": 45.038943,
       "longitude": 39.095504,
       "city": "Краснодар",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -16596,7 +16596,7 @@
       "latitude": 44.633864,
       "longitude": 39.140875,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16695,7 +16695,7 @@
       "latitude": 43.68873,
       "longitude": 39.683554,
       "city": "Ордынка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16704,7 +16704,7 @@
       "latitude": 43.655137,
       "longitude": 39.649208,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16713,7 +16713,7 @@
       "latitude": 43.572203,
       "longitude": 39.734746,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16722,7 +16722,7 @@
       "latitude": 43.696925,
       "longitude": 39.589378,
       "city": "Лоо",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16740,7 +16740,7 @@
       "latitude": 43.57675,
       "longitude": 39.748734,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16749,7 +16749,7 @@
       "latitude": 44.302179,
       "longitude": 38.750216,
       "city": "Лермонтово",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16758,7 +16758,7 @@
       "latitude": 43.581079,
       "longitude": 39.744335,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16776,7 +16776,7 @@
       "latitude": 43.660906,
       "longitude": 39.658735,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16794,7 +16794,7 @@
       "latitude": 44.319246,
       "longitude": 38.70327,
       "city": "Джубга",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16803,7 +16803,7 @@
       "latitude": 43.561499,
       "longitude": 39.760442,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16821,7 +16821,7 @@
       "latitude": 43.56385,
       "longitude": 39.76449,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16857,7 +16857,7 @@
       "latitude": 43.700117,
       "longitude": 39.66376,
       "city": "Волковка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16866,7 +16866,7 @@
       "latitude": 43.619709,
       "longitude": 39.719272,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16875,7 +16875,7 @@
       "latitude": 43.597457,
       "longitude": 39.71696,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16956,7 +16956,7 @@
       "latitude": 44.164848,
       "longitude": 38.995087,
       "city": "Небуг",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16974,7 +16974,7 @@
       "latitude": 43.485334,
       "longitude": 39.941262,
       "city": "Бестужевское",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17028,7 +17028,7 @@
       "latitude": 43.587618,
       "longitude": 39.719197,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17037,7 +17037,7 @@
       "latitude": 44.985374,
       "longitude": 38.975501,
       "city": "аул Козет",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17055,7 +17055,7 @@
       "latitude": 43.661069,
       "longitude": 39.661578,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17280,7 +17280,7 @@
       "latitude": 44.251813,
       "longitude": 38.834946,
       "city": "Новомихайловский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17379,7 +17379,7 @@
       "latitude": 43.466778,
       "longitude": 39.925136,
       "city": "Орел-Изумруд",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17397,7 +17397,7 @@
       "latitude": 43.586509,
       "longitude": 39.765659,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17406,7 +17406,7 @@
       "latitude": 43.91042,
       "longitude": 39.337293,
       "city": "Лазаревское",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17415,7 +17415,7 @@
       "latitude": 44.986732,
       "longitude": 38.988217,
       "city": "аул Козет",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17424,7 +17424,7 @@
       "latitude": 43.584277,
       "longitude": 39.760889,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17442,7 +17442,7 @@
       "latitude": 43.607363,
       "longitude": 39.714287,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17451,7 +17451,7 @@
       "latitude": 43.434703,
       "longitude": 39.92091,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17460,7 +17460,7 @@
       "latitude": 43.650579,
       "longitude": 39.691088,
       "city": "Дагомыс",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17469,7 +17469,7 @@
       "latitude": 43.569242,
       "longitude": 39.749659,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17478,7 +17478,7 @@
       "latitude": 43.6812,
       "longitude": 39.601152,
       "city": "Нижнее Учдере",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17487,7 +17487,7 @@
       "latitude": 43.568128,
       "longitude": 39.765015,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17496,7 +17496,7 @@
       "latitude": 43.569246,
       "longitude": 39.755189,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17505,7 +17505,7 @@
       "latitude": 43.580034,
       "longitude": 39.728498,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17541,7 +17541,7 @@
       "latitude": 44.256051,
       "longitude": 38.858324,
       "city": "Новомихайловский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17649,7 +17649,7 @@
       "latitude": 44.146955,
       "longitude": 39.039123,
       "city": "Агой",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17676,7 +17676,7 @@
       "latitude": 44.119033,
       "longitude": 39.118127,
       "city": "Пригородный п. (Краснодарский край)",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17721,7 +17721,7 @@
       "latitude": 45.003389,
       "longitude": 38.978376,
       "city": "Новый п. (Республика Адыгея)",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17775,7 +17775,7 @@
       "latitude": 44.975132,
       "longitude": 38.940209,
       "city": "Яблоновский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17784,7 +17784,7 @@
       "latitude": 43.915497,
       "longitude": 39.349004,
       "city": "Лазаревское",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17793,7 +17793,7 @@
       "latitude": 43.752316,
       "longitude": 39.529618,
       "city": "Детляжка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17820,7 +17820,7 @@
       "latitude": 44.255279,
       "longitude": 38.849956,
       "city": "Новомихайловский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17829,7 +17829,7 @@
       "latitude": 44.041741,
       "longitude": 39.151084,
       "city": "Шепси",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17847,7 +17847,7 @@
       "latitude": 43.591928,
       "longitude": 39.7225,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17865,7 +17865,7 @@
       "latitude": 44.098441,
       "longitude": 39.098167,
       "city": "Туапсе",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17892,7 +17892,7 @@
       "latitude": 44.261752,
       "longitude": 38.822765,
       "city": "Пляхо",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17982,7 +17982,7 @@
       "latitude": 43.91668,
       "longitude": 39.3382,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17991,7 +17991,7 @@
       "latitude": 43.879722,
       "longitude": 39.399066,
       "city": "Волконка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18000,7 +18000,7 @@
       "latitude": 43.650256,
       "longitude": 39.738064,
       "city": "Барановка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18027,7 +18027,7 @@
       "latitude": 44.059258,
       "longitude": 39.134501,
       "city": "Дедеркой",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18054,7 +18054,7 @@
       "latitude": 44.999312,
       "longitude": 38.931513,
       "city": "Яблоновский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18063,7 +18063,7 @@
       "latitude": 43.620166,
       "longitude": 39.749018,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18072,7 +18072,7 @@
       "latitude": 43.767979,
       "longitude": 39.499487,
       "city": "Якорная Щель",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18162,7 +18162,7 @@
       "latitude": 44.635614,
       "longitude": 39.136605,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18171,7 +18171,7 @@
       "latitude": 44.985655,
       "longitude": 38.963925,
       "city": "аул Тахтамукай",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18180,7 +18180,7 @@
       "latitude": 43.915749,
       "longitude": 39.340394,
       "city": "Лазаревское",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18207,7 +18207,7 @@
       "latitude": 43.799715,
       "longitude": 39.469328,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18252,7 +18252,7 @@
       "latitude": 43.467123,
       "longitude": 39.89994,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18378,7 +18378,7 @@
       "latitude": 44.111874,
       "longitude": 39.061225,
       "city": "Туапсе",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18387,7 +18387,7 @@
       "latitude": 44.975594,
       "longitude": 38.922536,
       "city": "Яблоновский",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18531,7 +18531,7 @@
       "latitude": 43.633339,
       "longitude": 39.728635,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18693,7 +18693,7 @@
       "latitude": 43.641856,
       "longitude": 39.751652,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18900,7 +18900,7 @@
       "latitude": 43.633497,
       "longitude": 39.700471,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18918,7 +18918,7 @@
       "latitude": 43.62349,
       "longitude": 39.714412,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18927,7 +18927,7 @@
       "latitude": 43.592956,
       "longitude": 39.721329,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -18972,7 +18972,7 @@
       "latitude": 43.452042,
       "longitude": 39.91171,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19089,7 +19089,7 @@
       "latitude": 43.587365,
       "longitude": 39.722168,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19179,7 +19179,7 @@
       "latitude": 43.431762,
       "longitude": 39.935217,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19332,7 +19332,7 @@
       "latitude": 43.58976,
       "longitude": 39.73891,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19386,7 +19386,7 @@
       "latitude": 43.632892,
       "longitude": 39.710535,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19422,7 +19422,7 @@
       "latitude": 43.452474,
       "longitude": 39.953455,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19458,7 +19458,7 @@
       "latitude": 43.590226,
       "longitude": 39.726369,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19584,7 +19584,7 @@
       "latitude": 43.637974,
       "longitude": 39.758293,
       "city": "Верхний Юрт",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19593,7 +19593,7 @@
       "latitude": 43.593509,
       "longitude": 39.738963,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19683,7 +19683,7 @@
       "latitude": 43.527163,
       "longitude": 39.901791,
       "city": "Каштаны",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19692,7 +19692,7 @@
       "latitude": 43.450029,
       "longitude": 39.906174,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19710,7 +19710,7 @@
       "latitude": 43.59671,
       "longitude": 39.72188,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19755,7 +19755,7 @@
       "latitude": 43.391852,
       "longitude": 39.983112,
       "city": "Сириус",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19944,7 +19944,7 @@
       "latitude": 44.652507,
       "longitude": 39.177495,
       "city": "Горячий Ключ",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19953,7 +19953,7 @@
       "latitude": 43.635769,
       "longitude": 39.732002,
       "city": "Барановка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -19971,7 +19971,7 @@
       "latitude": 43.598779,
       "longitude": 39.738157,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20016,7 +20016,7 @@
       "latitude": 43.567465,
       "longitude": 39.800565,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20025,7 +20025,7 @@
       "latitude": 43.638065,
       "longitude": 39.751764,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20043,7 +20043,7 @@
       "latitude": 43.600743,
       "longitude": 39.733543,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20052,7 +20052,7 @@
       "latitude": 43.452068,
       "longitude": 39.906477,
       "city": "Адлер",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20079,7 +20079,7 @@
       "latitude": 43.589525,
       "longitude": 39.729701,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20088,7 +20088,7 @@
       "latitude": 43.586475,
       "longitude": 39.724455,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20142,7 +20142,7 @@
       "latitude": 43.590626,
       "longitude": 39.731939,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20151,7 +20151,7 @@
       "latitude": 43.66176,
       "longitude": 39.759663,
       "city": "Пластунка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -20538,7 +20538,7 @@
       "latitude": 59.707535,
       "longitude": 30.014944,
       "city": "Лаголово",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -22014,7 +22014,7 @@
       "latitude": 59.544133,
       "longitude": 30.870198,
       "city": "Тосно",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -22563,7 +22563,7 @@
       "latitude": 59.732777,
       "longitude": 30.086438,
       "city": "Красное Село",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -23049,7 +23049,7 @@
       "latitude": 56.787453,
       "longitude": 44.486572,
       "city": "Семенов",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -23436,7 +23436,7 @@
       "latitude": 60.057984,
       "longitude": 30.479176,
       "city": "Новое Девяткино",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -23589,7 +23589,7 @@
       "latitude": 60.202249,
       "longitude": 30.310865,
       "city": "Касимово",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -23895,7 +23895,7 @@
       "latitude": 55.549315,
       "longitude": 37.0664,
       "city": "Апрелевка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -24246,7 +24246,7 @@
       "latitude": 59.683152,
       "longitude": 30.064532,
       "city": "Рассколово",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -27162,7 +27162,7 @@
       "latitude": 59.549115,
       "longitude": 30.858498,
       "city": "Тосно",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -41742,7 +41742,7 @@
       "latitude": 53.145641,
       "longitude": 50.07512,
       "city": "Самара",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -43056,7 +43056,7 @@
       "latitude": 55.563171,
       "longitude": 37.645211,
       "city": "Измайлово рп. (Московская область)",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -46125,7 +46125,7 @@
       "latitude": 56.333186,
       "longitude": 43.94187,
       "city": "Нижний Новгород",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -50769,7 +50769,7 @@
       "latitude": 55.865311,
       "longitude": 48.871715,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -50787,7 +50787,7 @@
       "latitude": 55.826376,
       "longitude": 49.102492,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -51966,7 +51966,7 @@
       "latitude": 55.83302,
       "longitude": 49.154997,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -52128,7 +52128,7 @@
       "latitude": 55.820491,
       "longitude": 49.097576,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -52677,7 +52677,7 @@
       "latitude": 55.830308,
       "longitude": 49.10058,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -52758,7 +52758,7 @@
       "latitude": 55.778886,
       "longitude": 49.110129,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -53964,7 +53964,7 @@
       "latitude": 55.865248,
       "longitude": 49.071587,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54180,7 +54180,7 @@
       "latitude": 55.858385,
       "longitude": 48.903066,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54189,7 +54189,7 @@
       "latitude": 55.756057,
       "longitude": 49.187694,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54216,7 +54216,7 @@
       "latitude": 55.798275,
       "longitude": 49.2466,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54306,7 +54306,7 @@
       "latitude": 55.792596,
       "longitude": 49.222126,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -54630,7 +54630,7 @@
       "latitude": 53.36131,
       "longitude": 58.998876,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -56745,7 +56745,7 @@
       "latitude": 55.865847,
       "longitude": 49.086606,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -57186,7 +57186,7 @@
       "latitude": 56.070314,
       "longitude": 49.882215,
       "city": "Арск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -57195,7 +57195,7 @@
       "latitude": 55.830605,
       "longitude": 49.092975,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59256,7 +59256,7 @@
       "latitude": 55.845862,
       "longitude": 48.905543,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59265,7 +59265,7 @@
       "latitude": 55.854792,
       "longitude": 49.091315,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59598,7 +59598,7 @@
       "latitude": 53.356174,
       "longitude": 58.976637,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -59850,7 +59850,7 @@
       "latitude": 53.370115,
       "longitude": 58.965782,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60201,7 +60201,7 @@
       "latitude": 53.388262,
       "longitude": 58.96481,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60561,7 +60561,7 @@
       "latitude": 55.849552,
       "longitude": 48.522141,
       "city": "Зеленодольск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60966,7 +60966,7 @@
       "latitude": 53.409118,
       "longitude": 58.968645,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -60993,7 +60993,7 @@
       "latitude": 53.392505,
       "longitude": 58.988149,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61137,7 +61137,7 @@
       "latitude": 55.836678,
       "longitude": 49.073552,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61146,7 +61146,7 @@
       "latitude": 55.832251,
       "longitude": 49.052396,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -61164,7 +61164,7 @@
       "latitude": 55.865731,
       "longitude": 49.097176,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -62118,7 +62118,7 @@
       "latitude": 57.069928,
       "longitude": 53.993471,
       "city": "Воткинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -62289,7 +62289,7 @@
       "latitude": 53.394327,
       "longitude": 59.063798,
       "city": "Магнитогорск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -64260,7 +64260,7 @@
       "latitude": 56.111201,
       "longitude": 47.493883,
       "city": "Новочебоксарск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -65079,7 +65079,7 @@
       "latitude": 55.905769,
       "longitude": 49.301554,
       "city": "Высокая Гора",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -65601,7 +65601,7 @@
       "latitude": 55.826414,
       "longitude": 49.111769,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -65916,7 +65916,7 @@
       "latitude": 56.141655,
       "longitude": 47.213233,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -66267,7 +66267,7 @@
       "latitude": 55.821037,
       "longitude": 49.08816,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -66411,7 +66411,7 @@
       "latitude": 55.779792,
       "longitude": 49.236498,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -66501,7 +66501,7 @@
       "latitude": 55.862038,
       "longitude": 49.10823,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -66627,7 +66627,7 @@
       "latitude": 55.860607,
       "longitude": 49.076992,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -67140,7 +67140,7 @@
       "latitude": 55.817971,
       "longitude": 48.899419,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -67554,7 +67554,7 @@
       "latitude": 55.852684,
       "longitude": 48.566619,
       "city": "Зеленодольск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -67563,7 +67563,7 @@
       "latitude": 55.849054,
       "longitude": 48.49954,
       "city": "Зеленодольск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -71523,7 +71523,7 @@
       "latitude": 55.753108,
       "longitude": 49.180417,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -71865,7 +71865,7 @@
       "latitude": 55.792549,
       "longitude": 49.171205,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -73242,7 +73242,7 @@
       "latitude": 55.827495,
       "longitude": 49.13542,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -77670,7 +77670,7 @@
       "latitude": 55.853195,
       "longitude": 48.564053,
       "city": "Зеленодольск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -79209,7 +79209,7 @@
       "latitude": 56.14932,
       "longitude": 47.22023,
       "city": "Чебоксары",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -80442,7 +80442,7 @@
       "latitude": 55.423223,
       "longitude": 37.52162,
       "city": "Подольск",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -80469,7 +80469,7 @@
       "latitude": 55.81318,
       "longitude": 37.623429,
       "city": "Москва",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -81396,7 +81396,7 @@
       "latitude": 55.739479,
       "longitude": 49.196857,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -85518,7 +85518,7 @@
       "latitude": 55.776747,
       "longitude": 49.105442,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -86913,7 +86913,7 @@
       "latitude": 55.750787,
       "longitude": 49.198624,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -88956,7 +88956,7 @@
       "latitude": 55.833673,
       "longitude": 49.078366,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -89100,7 +89100,7 @@
       "latitude": 55.870766,
       "longitude": 49.081121,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -89316,7 +89316,7 @@
       "latitude": 55.849,
       "longitude": 49.22547,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -89379,7 +89379,7 @@
       "latitude": 55.73084,
       "longitude": 49.15236,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -89559,7 +89559,7 @@
       "latitude": 55.77055,
       "longitude": 49.24005,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -89568,7 +89568,7 @@
       "latitude": 55.81186,
       "longitude": 49.18169,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -90315,7 +90315,7 @@
       "latitude": 55.827113,
       "longitude": 49.153404,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -90918,7 +90918,7 @@
       "latitude": 55.771564,
       "longitude": 49.096442,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -90927,7 +90927,7 @@
       "latitude": 55.82067,
       "longitude": 49.103733,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -90936,7 +90936,7 @@
       "latitude": 55.840218,
       "longitude": 49.104605,
       "city": "Казань",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
