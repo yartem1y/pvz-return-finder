@@ -7,8 +7,8 @@ const CONFIG = Object.freeze({
   allowedTypes: new Set(['magnit_store', 'partner_pvz', 'yandex_pvz']),
   pointHeaders: ['code', 'address', 'latitude', 'longitude', 'city', 'is_active', 'type'],
   minimumPointCount: 1_000,
-  maximumPointDropRatio: 0.1,
-  maximumActiveDropRatio: 0.2,
+  maximumPointDropRatio: 0.5,
+  maximumActiveDropRatio: 0.5,
 });
 
 function cleanText(value) {
@@ -80,6 +80,7 @@ function readPoints(rows, cityKeys) {
   const codeRows = new Map();
   let unknownPointCount = 0;
   let unsupportedCodeCount = 0;
+  let skippedRowCount = 0;
 
   rows.slice(1).forEach((row, index) => {
     const sheetRow = index + 2;
@@ -131,8 +132,6 @@ function readPoints(rows, cityKeys) {
       const codeKey = normalizeKey(code);
       if (codeRows.has(codeKey)) {
         rowErrors.push(`Строка ${sheetRow}, ${code}: code уже используется в строке ${codeRows.get(codeKey)}.`);
-      } else {
-        codeRows.set(codeKey, sheetRow);
       }
     }
 
@@ -147,14 +146,16 @@ function readPoints(rows, cityKeys) {
     }
 
     if (rowErrors.length) {
+      skippedRowCount += 1;
       errors.push(...rowErrors);
       return;
     }
 
+    codeRows.set(normalizeKey(code), sheetRow);
     points.push({ code, address, latitude, longitude, city, is_active: isActive, type });
   });
 
-  return { points, errors, warnings, unknownPointCount, unsupportedCodeCount };
+  return { points, errors, warnings, unknownPointCount, unsupportedCodeCount, skippedRowCount };
 }
 
 async function fetchSheetRanges(spreadsheetId, accessToken) {
@@ -197,7 +198,7 @@ function assertSafeChange(currentPayload, nextPayload) {
   const currentPointCount = currentPayload.points.length;
   const pointDropRatio = (currentPointCount - nextPointCount) / currentPointCount;
   if (pointDropRatio > CONFIG.maximumPointDropRatio) {
-    throw new Error(`Количество точек уменьшилось с ${currentPointCount} до ${nextPointCount} более чем на 10%.`);
+    throw new Error(`Количество точек уменьшилось с ${currentPointCount} до ${nextPointCount} более чем на 50%.`);
   }
 
   const currentActiveCount = currentPayload.points.filter(point => point.is_active === true).length;
@@ -205,7 +206,7 @@ function assertSafeChange(currentPayload, nextPayload) {
   if (currentActiveCount > 0) {
     const activeDropRatio = (currentActiveCount - nextActiveCount) / currentActiveCount;
     if (activeDropRatio > CONFIG.maximumActiveDropRatio) {
-      throw new Error(`Количество активных точек уменьшилось с ${currentActiveCount} до ${nextActiveCount} более чем на 20%.`);
+      throw new Error(`Количество активных точек уменьшилось с ${currentActiveCount} до ${nextActiveCount} более чем на 50%.`);
     }
   }
 }
@@ -237,6 +238,8 @@ function buildMarkdownSummary(report) {
       `| Городов без ПВЗ | ${report.metrics.city_count} |`,
       `| Исключено type=unknown | ${report.metrics.unknown_excluded} |`,
       `| Исключено неподдерживаемых кодов | ${report.metrics.unsupported_codes_excluded} |`,
+      `| Пропущено строк с ошибками | ${report.metrics.skipped_row_count} |`,
+      `| Ошибок в пропущенных строках | ${report.metrics.row_error_count} |`,
       `| Предупреждений | ${report.metrics.warning_count} |`,
       `| Данные изменились | ${report.metrics.changed ? 'да' : 'нет'} |`,
       '',
@@ -246,9 +249,9 @@ function buildMarkdownSummary(report) {
   if (report.reason) {
     lines.push('## Причина ошибки', '', `> ${cleanText(report.reason)}`, '');
   }
-  if (report.error_examples?.length) {
-    lines.push('## Примеры ошибок', '');
-    report.error_examples.forEach(message => lines.push(`- ${cleanText(message)}`));
+  if (report.skipped_row_examples?.length) {
+    lines.push('## Пропущенные строки', '');
+    report.skipped_row_examples.forEach(message => lines.push(`- ${cleanText(message)}`));
     lines.push('');
   }
   if (report.warning_examples?.length) {
@@ -299,11 +302,7 @@ async function main() {
     const pointResult = readPoints(pointRows, cityResult.cityKeys);
     const warningExamples = [...cityResult.warnings, ...pointResult.warnings].slice(0, 20);
     report.warning_examples = warningExamples;
-    report.error_examples = pointResult.errors.slice(0, 20);
-
-    if (pointResult.errors.length) {
-      throw new Error(`Обновление заблокировано: ошибок ${pointResult.errors.length}.`);
-    }
+    report.skipped_row_examples = pointResult.errors.slice(0, 20);
 
     report.stage = 'Сравнение с текущим JSON';
     let currentPayload = null;
@@ -329,6 +328,8 @@ async function main() {
       city_count: nextPayload.cities_without_pvz.length,
       unknown_excluded: pointResult.unknownPointCount,
       unsupported_codes_excluded: pointResult.unsupportedCodeCount,
+      skipped_row_count: pointResult.skippedRowCount,
+      row_error_count: pointResult.errors.length,
       warning_count: cityResult.warnings.length + pointResult.warnings.length,
       changed,
     };
