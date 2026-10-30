@@ -1,8 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-27T06:49:06.240Z",
+  "updated_at": "2026-10-30T14:53:22.370Z",
   "cities_without_pvz": [
-    "Город",
     "Балаково",
     "Балашов",
     "Богатые Сабы",
@@ -27,7 +26,6 @@
     "Засечное",
     "Иваново",
     "Истра",
-    "Йошкар-Ола",
     "Кинешма",
     "Киров",
     "Кирово-Чепецк",
@@ -35,13 +33,13 @@
     "Красногвардейский",
     "Красный Октябрь",
     "Куровское",
+    "Лаголово",
     "Лакинск",
     "Ликино-Дулево",
     "Липецк",
     "Лобня",
     "Малая Дубна",
     "Маркс",
-    "Медведево",
     "Михнево",
     "Новое",
     "Новостройка",
@@ -54,6 +52,7 @@
     "Палех",
     "Правдинский",
     "Приволжский",
+    "Рассколово",
     "Рузаевка",
     "Ручей",
     "Савино",
@@ -126,7 +125,7 @@
       "latitude": 55.113127,
       "longitude": 61.194683,
       "city": "Малиновка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -252,7 +251,7 @@
       "latitude": 55.123751,
       "longitude": 61.364822,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -270,7 +269,7 @@
       "latitude": 55.253267,
       "longitude": 61.380234,
       "city": "Челябинск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2475,7 +2474,7 @@
       "latitude": 56.629762,
       "longitude": 47.814586,
       "city": "Медведево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2484,7 +2483,7 @@
       "latitude": 56.638507,
       "longitude": 47.795012,
       "city": "Медведево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2592,7 +2591,7 @@
       "latitude": 56.617975,
       "longitude": 47.899683,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2601,7 +2600,7 @@
       "latitude": 56.614688,
       "longitude": 47.961464,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -2952,7 +2951,7 @@
       "latitude": 54.788476,
       "longitude": 55.885217,
       "city": "Уфа",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5238,7 +5237,7 @@
       "latitude": 53.534751,
       "longitude": 49.2722,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -6696,7 +6695,7 @@
       "latitude": 56.876953,
       "longitude": 53.288766,
       "city": "Ижевск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7155,7 +7154,7 @@
       "latitude": 56.622052,
       "longitude": 47.896442,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7164,7 +7163,7 @@
       "latitude": 56.638194,
       "longitude": 47.933586,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7722,7 +7721,7 @@
       "latitude": 56.640976,
       "longitude": 47.892519,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7731,7 +7730,7 @@
       "latitude": 56.641094,
       "longitude": 47.896196,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7740,7 +7739,7 @@
       "latitude": 56.645313,
       "longitude": 47.870227,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7749,7 +7748,7 @@
       "latitude": 56.648221,
       "longitude": 47.893951,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -7758,7 +7757,7 @@
       "latitude": 56.643834,
       "longitude": 47.900487,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8181,7 +8180,7 @@
       "latitude": 56.636914,
       "longitude": 47.921392,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8190,7 +8189,7 @@
       "latitude": 56.636127,
       "longitude": 47.803408,
       "city": "Медведево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8199,7 +8198,7 @@
       "latitude": 56.626706,
       "longitude": 47.849768,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8208,7 +8207,7 @@
       "latitude": 56.630011,
       "longitude": 47.907817,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8217,7 +8216,7 @@
       "latitude": 56.640593,
       "longitude": 47.802814,
       "city": "Медведево",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8226,7 +8225,7 @@
       "latitude": 56.634141,
       "longitude": 47.844075,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8685,7 +8684,7 @@
       "latitude": 55.473753,
       "longitude": 37.526834,
       "city": "Рязановское п. (Московская область)",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8739,7 +8738,7 @@
       "latitude": 55.706315,
       "longitude": 37.899839,
       "city": "Люберцы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8883,7 +8882,7 @@
       "latitude": 55.507523,
       "longitude": 37.567808,
       "city": "Щербинка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8937,7 +8936,7 @@
       "latitude": 55.536599,
       "longitude": 36.988222,
       "city": "Петровское с. (Московская область)",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8955,7 +8954,7 @@
       "latitude": 55.439676,
       "longitude": 37.767418,
       "city": "Домодедово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -8982,7 +8981,7 @@
       "latitude": 55.66773,
       "longitude": 37.877362,
       "city": "Люберцы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9000,7 +8999,7 @@
       "latitude": 55.121792,
       "longitude": 37.343533,
       "city": "Дубна",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9090,7 +9089,7 @@
       "latitude": 55.36693,
       "longitude": 36.752229,
       "city": "Наро-Фоминск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9720,7 +9719,7 @@
       "latitude": 55.568045,
       "longitude": 38.200475,
       "city": "Раменское",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9729,7 +9728,7 @@
       "latitude": 55.500063,
       "longitude": 37.556245,
       "city": "Щербинка",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -10215,7 +10214,7 @@
       "latitude": 55.530799,
       "longitude": 37.067791,
       "city": "Апрелевка",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -10296,7 +10295,7 @@
       "latitude": 55.722608,
       "longitude": 36.900332,
       "city": "Звенигород",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -10413,7 +10412,7 @@
       "latitude": 55.678085,
       "longitude": 37.877589,
       "city": "Люберцы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -10557,7 +10556,7 @@
       "latitude": 55.465512,
       "longitude": 36.939649,
       "city": "Яковлевское",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -13482,7 +13481,7 @@
       "latitude": 55.528279,
       "longitude": 37.825757,
       "city": "Коробово",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -14868,7 +14867,7 @@
       "latitude": 43.459469,
       "longitude": 39.903358,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -15453,7 +15452,7 @@
       "latitude": 43.493964,
       "longitude": 39.90215,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -16416,7 +16415,7 @@
       "latitude": 45.023775,
       "longitude": 38.992264,
       "city": "Краснодар",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -16920,7 +16919,7 @@
       "latitude": 44.125139,
       "longitude": 39.076837,
       "city": "Туапсе",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -17064,7 +17063,7 @@
       "latitude": 43.732689,
       "longitude": 39.552022,
       "city": "Сочи",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -24021,7 +24020,7 @@
       "latitude": 56.645238,
       "longitude": 43.472075,
       "city": "Городец",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -42912,7 +42911,7 @@
       "latitude": 55.492091,
       "longitude": 37.31232,
       "city": "Троицк г. (Московская область)",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -43173,7 +43172,7 @@
       "latitude": 55.175017,
       "longitude": 37.470273,
       "city": "Чехов",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -46161,7 +46160,7 @@
       "latitude": 55.755547,
       "longitude": 51.996971,
       "city": "Елабуга",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -50634,7 +50633,7 @@
       "latitude": 56.788225,
       "longitude": 62.041984,
       "city": "Богданович",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -54729,7 +54728,7 @@
       "latitude": 56.636567,
       "longitude": 47.898446,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -62028,7 +62027,7 @@
       "latitude": 56.638972,
       "longitude": 47.891627,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -62937,7 +62936,7 @@
       "latitude": 56.623377,
       "longitude": 47.936392,
       "city": "Йошкар-Ола",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -66159,7 +66158,7 @@
       "latitude": 56.272884,
       "longitude": 43.931633,
       "city": "Нижний Новгород",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -86022,7 +86021,7 @@
       "latitude": 55.824285,
       "longitude": 37.579616,
       "city": "Москва",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
