@@ -2,6 +2,10 @@ name: Update PVZ data
 
 on:
   workflow_dispatch:
+  
+  schedule:
+    - cron: "7 6 * * *"
+      timezone: "Europe/Moscow"
 
 concurrency:
   group: update-pvz-data
