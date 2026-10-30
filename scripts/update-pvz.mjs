@@ -79,6 +79,7 @@ function readPoints(rows, cityKeys) {
   const warnings = [];
   const codeRows = new Map();
   let unknownPointCount = 0;
+  let unsupportedCodeCount = 0;
 
   rows.slice(1).forEach((row, index) => {
     const sheetRow = index + 2;
@@ -95,6 +96,10 @@ function readPoints(rows, cityKeys) {
     if (!hasAnyData) return;
     if (type === 'unknown') {
       unknownPointCount += 1;
+      return;
+    }
+    if (type === 'partner_pvz' && !codeMatchesType(code, type) && (/^-/.test(code) || /-$/.test(code))) {
+      unsupportedCodeCount += 1;
       return;
     }
 
@@ -149,7 +154,7 @@ function readPoints(rows, cityKeys) {
     points.push({ code, address, latitude, longitude, city, is_active: isActive, type });
   });
 
-  return { points, errors, warnings, unknownPointCount };
+  return { points, errors, warnings, unknownPointCount, unsupportedCodeCount };
 }
 
 async function fetchSheetRanges(spreadsheetId, accessToken) {
@@ -205,57 +210,153 @@ function assertSafeChange(currentPayload, nextPayload) {
   }
 }
 
+function escapeWorkflowCommand(value) {
+  return String(value).replace(/%/g, '%25').replace(/\r/g, '%0D').replace(/\n/g, '%0A');
+}
+
+function buildMarkdownSummary(report) {
+  const statusLabel = report.status === 'success' ? 'Успешно' : 'Ошибка';
+  const lines = [
+    '# Обновление данных ПВЗ',
+    '',
+    `**Статус:** ${statusLabel}`,
+    `**Этап:** ${report.stage}`,
+    `**Начало:** ${report.started_at}`,
+    `**Завершение:** ${report.finished_at}`,
+    '',
+  ];
+
+  if (report.metrics) {
+    lines.push(
+      '## Результат',
+      '',
+      '| Показатель | Значение |',
+      '|---|---:|',
+      `| Точек в JSON | ${report.metrics.point_count} |`,
+      `| Активных точек | ${report.metrics.active_count} |`,
+      `| Городов без ПВЗ | ${report.metrics.city_count} |`,
+      `| Исключено type=unknown | ${report.metrics.unknown_excluded} |`,
+      `| Исключено неподдерживаемых кодов | ${report.metrics.unsupported_codes_excluded} |`,
+      `| Предупреждений | ${report.metrics.warning_count} |`,
+      `| Данные изменились | ${report.metrics.changed ? 'да' : 'нет'} |`,
+      '',
+    );
+  }
+
+  if (report.reason) {
+    lines.push('## Причина ошибки', '', `> ${cleanText(report.reason)}`, '');
+  }
+  if (report.error_examples?.length) {
+    lines.push('## Примеры ошибок', '');
+    report.error_examples.forEach(message => lines.push(`- ${cleanText(message)}`));
+    lines.push('');
+  }
+  if (report.warning_examples?.length) {
+    lines.push('## Предупреждения', '');
+    report.warning_examples.forEach(message => lines.push(`- ${cleanText(message)}`));
+    lines.push('');
+  }
+
+  lines.push('Подробный машинный отчет доступен в артефакте `pvz-update-report`.');
+  return `${lines.join('\n')}\n`;
+}
+
+async function writeDiagnostics(report) {
+  report.finished_at = new Date().toISOString();
+  const reportPath = cleanText(process.env.PVZ_REPORT_PATH);
+  if (reportPath) {
+    await writeFile(reportPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  }
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    await appendFile(process.env.GITHUB_STEP_SUMMARY, buildMarkdownSummary(report), 'utf8');
+  }
+}
+
 async function setOutput(name, value) {
   if (!process.env.GITHUB_OUTPUT) return;
   await appendFile(process.env.GITHUB_OUTPUT, `${name}=${value}\n`, 'utf8');
 }
 
 async function main() {
-  const spreadsheetId = cleanText(process.env.GOOGLE_SPREADSHEET_ID);
-  const accessToken = cleanText(process.env.GOOGLE_ACCESS_TOKEN);
-  if (!spreadsheetId) throw new Error('Не задана переменная GOOGLE_SPREADSHEET_ID.');
-  if (!accessToken) throw new Error('Не получен короткоживущий токен Google.');
-
-  const [pointRows, cityRows] = await fetchSheetRanges(spreadsheetId, accessToken);
-  const cityResult = readCities(cityRows);
-  const pointResult = readPoints(pointRows, cityResult.cityKeys);
-
-  if (pointResult.errors.length) {
-    const preview = pointResult.errors.slice(0, 20).join('\n');
-    throw new Error(`Обновление заблокировано: ошибок ${pointResult.errors.length}.\n${preview}`);
-  }
-
-  let currentPayload = null;
-  try {
-    currentPayload = JSON.parse(await readFile(CONFIG.outputPath, 'utf8'));
-  } catch (error) {
-    if (error?.code !== 'ENOENT') throw error;
-  }
-
-  const nextPayload = {
-    schema_version: 1,
-    updated_at: new Date().toISOString(),
-    cities_without_pvz: cityResult.cities,
-    points: pointResult.points,
+  const report = {
+    started_at: new Date().toISOString(),
+    status: 'running',
+    stage: 'Инициализация',
   };
-  assertSafeChange(currentPayload, nextPayload);
 
-  const changed = JSON.stringify(comparablePayload(currentPayload || {})) !== JSON.stringify(comparablePayload(nextPayload));
-  await setOutput('changed', String(changed));
-  await setOutput('point_count', String(nextPayload.points.length));
-  await setOutput('active_count', String(nextPayload.points.filter(point => point.is_active).length));
+  try {
+    report.stage = 'Проверка конфигурации';
+    const spreadsheetId = cleanText(process.env.GOOGLE_SPREADSHEET_ID);
+    const accessToken = cleanText(process.env.GOOGLE_ACCESS_TOKEN);
+    if (!spreadsheetId) throw new Error('Не задана переменная GOOGLE_SPREADSHEET_ID.');
+    if (!accessToken) throw new Error('Не получен короткоживущий токен Google.');
 
-  console.log(JSON.stringify({
-    changed,
-    pointCount: nextPayload.points.length,
-    activeCount: nextPayload.points.filter(point => point.is_active).length,
-    cityCount: nextPayload.cities_without_pvz.length,
-    unknownExcluded: pointResult.unknownPointCount,
-    warningCount: cityResult.warnings.length + pointResult.warnings.length,
-  }));
+    report.stage = 'Чтение Google Таблицы';
+    const [pointRows, cityRows] = await fetchSheetRanges(spreadsheetId, accessToken);
 
-  if (changed) {
-    await writeFile(CONFIG.outputPath, `${JSON.stringify(nextPayload, null, 2)}\n`, 'utf8');
+    report.stage = 'Проверка данных';
+    const cityResult = readCities(cityRows);
+    const pointResult = readPoints(pointRows, cityResult.cityKeys);
+    const warningExamples = [...cityResult.warnings, ...pointResult.warnings].slice(0, 20);
+    report.warning_examples = warningExamples;
+    report.error_examples = pointResult.errors.slice(0, 20);
+
+    if (pointResult.errors.length) {
+      throw new Error(`Обновление заблокировано: ошибок ${pointResult.errors.length}.`);
+    }
+
+    report.stage = 'Сравнение с текущим JSON';
+    let currentPayload = null;
+    try {
+      currentPayload = JSON.parse(await readFile(CONFIG.outputPath, 'utf8'));
+    } catch (error) {
+      if (error?.code !== 'ENOENT') throw error;
+    }
+
+    const nextPayload = {
+      schema_version: 1,
+      updated_at: new Date().toISOString(),
+      cities_without_pvz: cityResult.cities,
+      points: pointResult.points,
+    };
+    assertSafeChange(currentPayload, nextPayload);
+
+    const changed = JSON.stringify(comparablePayload(currentPayload || {})) !== JSON.stringify(comparablePayload(nextPayload));
+    const activeCount = nextPayload.points.filter(point => point.is_active).length;
+    report.metrics = {
+      point_count: nextPayload.points.length,
+      active_count: activeCount,
+      city_count: nextPayload.cities_without_pvz.length,
+      unknown_excluded: pointResult.unknownPointCount,
+      unsupported_codes_excluded: pointResult.unsupportedCodeCount,
+      warning_count: cityResult.warnings.length + pointResult.warnings.length,
+      changed,
+    };
+
+    await setOutput('changed', String(changed));
+    await setOutput('point_count', String(nextPayload.points.length));
+    await setOutput('active_count', String(activeCount));
+
+    if (changed) {
+      report.stage = 'Запись pvz.json';
+      await writeFile(CONFIG.outputPath, `${JSON.stringify(nextPayload, null, 2)}\n`, 'utf8');
+    }
+
+    report.status = 'success';
+    report.stage = changed ? 'JSON сформирован' : 'Изменений нет';
+    await writeDiagnostics(report);
+    console.log(JSON.stringify(report.metrics));
+  } catch (error) {
+    const message = error instanceof Error ? error.message : String(error);
+    report.status = 'failure';
+    report.reason = message;
+    try {
+      await writeDiagnostics(report);
+    } catch (diagnosticError) {
+      console.error(`Не удалось сохранить диагностический отчет: ${diagnosticError}`);
+    }
+    console.error(`::error title=Обновление ПВЗ не выполнено::${escapeWorkflowCommand(message)}`);
+    throw error;
   }
 }
 
