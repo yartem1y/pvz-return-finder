@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-30T14:53:22.370Z",
+  "updated_at": "2026-11-02T10:55:04.588Z",
   "cities_without_pvz": [
     "Балаково",
     "Балашов",
@@ -21563,7 +21563,7 @@
       "latitude": 60.024734,
       "longitude": 30.630714,
       "city": "Всеволожск",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
