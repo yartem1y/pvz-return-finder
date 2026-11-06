@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T10:44:48.117Z",
+  "updated_at": "2026-11-06T10:44:13.710Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -17713,7 +17713,7 @@
       "latitude": 56.864,
       "longitude": 60.651639,
       "city": "Екатеринбург",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
