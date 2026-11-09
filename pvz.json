@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-07T09:57:54.800Z",
+  "updated_at": "2026-11-09T11:22:17.680Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -20179,7 +20179,7 @@
       "latitude": 45.065481,
       "longitude": 38.95281,
       "city": "Краснодар",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -30151,7 +30151,7 @@
       "latitude": 57.966409,
       "longitude": 56.200504,
       "city": "Пермь",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
@@ -72604,7 +72604,7 @@
       "latitude": 53.521777,
       "longitude": 49.420576,
       "city": "Тольятти",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
