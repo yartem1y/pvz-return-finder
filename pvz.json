@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T11:22:17.680Z",
+  "updated_at": "2026-11-11T10:46:18.049Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -208,7 +208,7 @@
       "latitude": 55.485178,
       "longitude": 60.198267,
       "city": "Карабаш (Челябинская область)",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5248,7 +5248,7 @@
       "latitude": 53.533019,
       "longitude": 49.284375,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -5734,7 +5734,7 @@
       "latitude": 53.514979,
       "longitude": 49.42714,
       "city": "Тольятти",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9064,7 +9064,7 @@
       "latitude": 55.687708,
       "longitude": 37.890595,
       "city": "Люберцы",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9100,7 +9100,7 @@
       "latitude": 55.603378,
       "longitude": 38.045762,
       "city": "Спартак",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9415,7 +9415,7 @@
       "latitude": 55.543675,
       "longitude": 37.485775,
       "city": "Москва",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -9424,7 +9424,7 @@
       "latitude": 55.643134,
       "longitude": 37.359366,
       "city": "Москва",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
@@ -30367,7 +30367,7 @@
       "latitude": 57.897148,
       "longitude": 56.320204,
       "city": "Горный",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
