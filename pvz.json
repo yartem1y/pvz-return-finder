@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-11T10:46:18.049Z",
+  "updated_at": "2026-11-12T10:56:13.438Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -21619,7 +21619,7 @@
       "latitude": 55.228702,
       "longitude": 43.094999,
       "city": "Ардатов",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
