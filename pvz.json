@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T10:56:13.438Z",
+  "updated_at": "2026-11-13T10:52:03.789Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -10288,7 +10288,7 @@
       "latitude": 55.660562,
       "longitude": 37.197026,
       "city": "Дубки с. (Московская область)",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
