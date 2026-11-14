@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T10:52:03.789Z",
+  "updated_at": "2026-11-14T10:13:02.564Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -6832,7 +6832,7 @@
       "latitude": 56.846308,
       "longitude": 53.29692,
       "city": "Ижевск",
-      "is_active": false,
+      "is_active": true,
       "type": "magnit_store"
     },
     {
