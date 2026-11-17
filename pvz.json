@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T10:13:02.564Z",
+  "updated_at": "2026-11-17T11:43:07.568Z",
   "cities_without_pvz": [
     "Агой",
     "Адлер",
@@ -52831,7 +52831,7 @@
       "latitude": 55.79429,
       "longitude": 49.125813,
       "city": "Казань",
-      "is_active": true,
+      "is_active": false,
       "type": "magnit_store"
     },
     {
